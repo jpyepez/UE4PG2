@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\UE4PG2.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{58A9DDF5-5ADB-483C-8CDC-8E5CE4D6A1BD}</UniqueIdentifier>
+			<UniqueIdentifier>{A071B26D-9E1B-45DF-9B4D-FD3DF9E3FFCC}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\UE4PG2.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{81809401-0C94-4E79-B36F-EA01C6BC76C2}</UniqueIdentifier>
+			<UniqueIdentifier>{8AB326EA-904C-4140-BC19-4F8439C56D33}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -25,12 +25,12 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\UE4PG2">
-			<UniqueIdentifier>{896244B2-8947-4F67-BC25-EAB83E07A15B}</UniqueIdentifier>
+			<UniqueIdentifier>{E17C41B7-5D8E-4C79-85BF-5E159272F7EB}</UniqueIdentifier>
 		</Filter>
-		<ClCompile Include="..\..\Source\UE4PG2\MainBall.cpp">
+		<ClCompile Include="..\..\Source\UE4PG2\MyPawnBall.cpp">
 			<Filter>Source\UE4PG2</Filter>
 		</ClCompile >
-		<ClInclude Include="..\..\Source\UE4PG2\MainBall.h">
+		<ClInclude Include="..\..\Source\UE4PG2\MyPawnBall.h">
 			<Filter>Source\UE4PG2</Filter>
 		</ClInclude >
 		<None Include="..\..\Source\UE4PG2\UE4PG2.Build.cs">

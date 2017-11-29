@@ -413,8 +413,8 @@
 		<None Include="..\..\Config\DefaultEditor.ini" />
 		<None Include="..\..\Config\DefaultEngine.ini" />
 		<None Include="..\..\Config\DefaultGame.ini" />
-		<ClCompile Include="..\..\Source\UE4PG2\MainBall.cpp" />
-		<ClInclude Include="..\..\Source\UE4PG2\MainBall.h" />
+		<ClCompile Include="..\..\Source\UE4PG2\MyPawnBall.cpp" />
+		<ClInclude Include="..\..\Source\UE4PG2\MyPawnBall.h" />
 		<None Include="..\..\Source\UE4PG2\UE4PG2.Build.cs" />
 		<ClCompile Include="..\..\Source\UE4PG2\UE4PG2.cpp" />
 		<ClInclude Include="..\..\Source\UE4PG2\UE4PG2.h" />

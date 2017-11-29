@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\UE4PG2.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{58A9DDF5-5ADB-483C-8CDC-8E5CE4D6A1BD}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\UE4PG2.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\UE4PG2Editor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{81809401-0C94-4E79-B36F-EA01C6BC76C2}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\UE4PG2">
+			<UniqueIdentifier>{896244B2-8947-4F67-BC25-EAB83E07A15B}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\UE4PG2\MainBall.cpp">
+			<Filter>Source\UE4PG2</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\UE4PG2\MainBall.h">
+			<Filter>Source\UE4PG2</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\UE4PG2\UE4PG2.Build.cs">
+			<Filter>Source\UE4PG2</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\UE4PG2\UE4PG2.cpp">
+			<Filter>Source\UE4PG2</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\UE4PG2\UE4PG2.h">
+			<Filter>Source\UE4PG2</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\UE4PG2\UE4PG2GameModeBase.cpp">
+			<Filter>Source\UE4PG2</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\UE4PG2\UE4PG2GameModeBase.h">
+			<Filter>Source\UE4PG2</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>

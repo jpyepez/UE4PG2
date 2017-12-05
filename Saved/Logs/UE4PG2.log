@@ -1,4 +1,4 @@
-﻿Log file open, 11/29/17 15:44:05
+﻿Log file open, 12/05/17 16:15:03
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,12 +9,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: UE4PG2
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(1052051186) SRandInit(1052051186).
+LogInit: Display: RandInit(1334253516) SRandInit(1334253516).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3754814, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.263964
+LogStats: Stats thread started at 0.225336
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -77,7 +77,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogModuleManager: Warning: Module file ../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4PG2/Binaries/Win64/UE4Editor-UE4PG2-8814.dll is missing. This is likely a stale module that must be recompiled.
+LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4PG2/Binaries/Win64/UE4Editor-UE4PG2-5578.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
@@ -151,114 +151,6 @@ LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
-LogInit: Warning: Incompatible or missing module: UE4Editor-UE4PG2.dll
-Running C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe UE4PG2 Development Win64 -project="C:/Users/jpyepez/Documents/Unreal Projects/UE4PG2/UE4PG2.uproject" -editorrecompile -progress -NoHotReloadFromIDE
-Using 'git status' to determine working set for adaptive non-unity build.
-Creating makefile for UE4PG2 (no existing makefile)
-@progress push 5%
-Parsing headers for UE4PG2Editor
-  Running UnrealHeaderTool "C:\Users\jpyepez\Documents\Unreal Projects\UE4PG2\UE4PG2.uproject" "C:\Users\jpyepez\Documents\Unreal Projects\UE4PG2\Intermediate\Build\Win64\UE4PG2Editor\Development\UE4PG2Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-Reflection code generated for UE4PG2Editor in 8.2479156 seconds
-@progress pop
-Deleting old hot reload file: "C:\Users\jpyepez\Documents\Unreal Projects\UE4PG2\Binaries\Win64\UE4Editor-UE4PG2-755.dll".
-Deleting old hot reload file: "C:\Users\jpyepez\Documents\Unreal Projects\UE4PG2\Binaries\Win64\UE4Editor-UE4PG2-755.pdb".
-Performing 3 actions (9 in parallel)
-UE4PG2.init.gen.cpp
-[2/3] Link UE4Editor-UE4PG2.dll
-[3/3] Link UE4Editor-UE4PG2.lib
-   Creating library C:\Users\jpyepez\Documents\Unreal Projects\UE4PG2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4PG2.lib and object C:\Users\jpyepez\Documents\Unreal Projects\UE4PG2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4PG2.exp
-   Creating library C:\Users\jpyepez\Documents\Unreal Projects\UE4PG2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4PG2.suppressed.lib and object C:\Users\jpyepez\Documents\Unreal Projects\UE4PG2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4PG2.suppressed.exp
-Total build time: 30.30 seconds (Local executor: 0.92 seconds)
-LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4PG2/Binaries/Win64/UE4Editor-UE4PG2.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
-LogInit: Using libcurl 7.47.1
-LogInit:  - built for x86_64-pc-win32
-LogInit:  - supports SSL with OpenSSL/1.0.2g
-LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
-LogInit:  - other features:
-LogInit:      CURL_VERSION_SSL
-LogInit:      CURL_VERSION_LIBZ
-LogInit:      CURL_VERSION_IPV6
-LogInit:      CURL_VERSION_ASYNCHDNS
-LogInit:      CURL_VERSION_LARGEFILE
-LogInit:      CURL_VERSION_IDN
-LogInit:  CurlRequestOptions (configurable via config and command line):
-LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
-LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
-LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
-LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
 LogInit: Build: ++UE4+Release-4.18-CL-3754814
 LogInit: Engine Version: 4.18.1-3754814+++UE4+Release-4.18
 LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
@@ -284,635 +176,838 @@ LogInit: Compiled (64-bit): Nov 14 2017 02:05:55
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.18
-LogInit: Command line:  
+LogInit: Command line: -EpicPortal  -HTTP=WinInet
 LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.11.29-02.44.41:189][  0]LogInit: Selected Device Profile: [Windows]
-[2017.11.29-02.44.41:189][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.11.29-02.44.41:202][  0]LogInit: Computer: TOKEYO
-[2017.11.29-02.44.41:202][  0]LogInit: User: jpyepez
-[2017.11.29-02.44.41:202][  0]LogInit: CPU Page size=4096, Cores=6
-[2017.11.29-02.44.41:202][  0]LogInit: High frequency timer resolution =3.410071 MHz
-[2017.11.29-02.44.41:202][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2017.11.29-02.44.41:202][  0]LogMemory: Platform Memory Stats for Windows
-[2017.11.29-02.44.41:202][  0]LogMemory: Process Physical Memory: 278.27 MB used, 278.27 MB peak
-[2017.11.29-02.44.41:202][  0]LogMemory: Process Virtual Memory: 270.74 MB used, 270.74 MB peak
-[2017.11.29-02.44.41:202][  0]LogMemory: Physical Memory: 3427.23 MB used,  4687.14 MB free, 8114.37 MB total
-[2017.11.29-02.44.41:202][  0]LogMemory: Virtual Memory: 698.40 MB used,  4687.14 MB free, 134217728.00 MB total
-[2017.11.29-02.44.41:338][  0]LogInit: Using OS detected language (en-US).
-[2017.11.29-02.44.41:338][  0]LogInit: Using OS detected locale (en-US).
-[2017.11.29-02.44.41:390][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2017.11.29-02.44.41:823][  0]LogInit: Setting process to per monitor DPI aware
-[2017.11.29-02.44.43:782][  0]LogD3D11RHI: D3D11 adapters:
-[2017.11.29-02.44.43:830][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2017.11.29-02.44.43:830][  0]LogD3D11RHI:       8085/0/4057 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2017.11.29-02.44.43:832][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.11.29-02.44.43:832][  0]LogD3D11RHI:       0/0/4057 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.11.29-02.44.43:832][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.11.29-02.44.43:837][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.11.29-02.44.43:837][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
-[2017.11.29-02.44.43:837][  0]LogWindows: EnumDisplayDevices:
-[2017.11.29-02.44.43:837][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2017.11.29-02.44.43:837][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
-[2017.11.29-02.44.43:838][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2017.11.29-02.44.43:838][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2017.11.29-02.44.43:838][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2017.11.29-02.44.43:838][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2017.11.29-02.44.43:838][  0]LogD3D11RHI:   Driver Version: 384.94 (internal:22.21.13.8494, unified:384.94)
-[2017.11.29-02.44.43:838][  0]LogD3D11RHI:      Driver Date: 7-18-2017
-[2017.11.29-02.44.43:838][  0]LogRHI: Texture pool is 5660 MB (70% of 8085 MB)
-[2017.11.29-02.44.43:867][  0]LogD3D11RHI: Async texture creation enabled
-[2017.11.29-02.44.43:877][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.11.29-02.44.43:921][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4PG2/Intermediate/Shaders/WorkingDirectory/4076/).
-[2017.11.29-02.44.43:921][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jpyepez/AppData/Local/Temp/UnrealShaderWorkingDir/F79D69B84A97E99021B8619445323D36/'.
-[2017.11.29-02.44.43:921][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2017.11.29-02.44.45:699][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2017.11.29-02.44.45:758][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2017.11.29-02.44.45:814][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2017.11.29-02.44.45:866][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2017.11.29-02.44.45:916][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2017.11.29-02.44.45:965][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2017.11.29-02.44.46:010][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.11.29-02.44.46:054][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2017.11.29-02.44.46:093][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2017.11.29-02.44.46:137][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2017.11.29-02.44.46:185][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2017.11.29-02.44.46:228][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2017.11.29-02.44.46:276][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2017.11.29-02.44.46:323][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2017.11.29-02.44.46:411][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2017.11.29-02.44.46:411][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.11.29-02.44.46:460][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2017.11.29-02.44.46:495][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2017.11.29-02.44.46:582][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2017.11.29-02.44.46:606][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2017.11.29-02.44.46:655][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2017.11.29-02.44.46:702][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.11.29-02.44.46:745][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2017.11.29-02.44.46:792][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2017.11.29-02.44.46:792][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2017.11.29-02.44.47:259][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2017.11.29-02.44.47:547][  0]LogDerivedDataCache: Loaded boot cache 0.29s 78MB C:/Users/jpyepez/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2017.11.29-02.44.47:547][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/jpyepez/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2017.11.29-02.44.47:547][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4PG2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.11.29-02.44.47:547][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.11.29-02.44.47:547][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4PG2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.11.29-02.44.47:547][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.11.29-02.44.47:565][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.11.29-02.44.47:577][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jpyepez/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.11.29-02.44.47:586][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.11.29-02.44.47:587][  0]LogSlate: Using Freetype 2.6.0
-[2017.11.29-02.44.47:599][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.11.29-02.44.47:599][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.11.29-02.44.48:299][  0]LogInit: Selected Device Profile: [Windows]
-[2017.11.29-02.44.48:607][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.11.29-02.44.48:642][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.11.29-02.44.48:642][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.11.29-02.44.48:642][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2017.11.29-02.44.48:642][  0]LogMeshReduction: No automatic mesh merging module available
-[2017.11.29-02.44.48:642][  0]LogMeshMerging: No automatic mesh merging module available
-[2017.11.29-02.44.48:669][  0]LogNetVersion: UE4PG2 , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4227711276)
-[2017.11.29-02.44.48:816][  0]LogAssetRegistry: FAssetRegistry took 0.0252 seconds to start up
-[2017.11.29-02.44.49:338][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.056480 seconds
-[2017.11.29-02.44.49:343][  0]LogUObjectArray: 35900 objects as part of root set at end of initial load.
-[2017.11.29-02.44.49:343][  0]LogUObjectAllocator: 7372016 out of 0 bytes used by permanent object pool.
-[2017.11.29-02.44.49:343][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.11.29-02.44.49:398][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.11.29-02.44.53:676][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.11.29-02.44.53:720][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.11.29-02.44.54:433][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.11.29-02.44.54:816][  0]SourceControl: Source control is disabled
-[2017.11.29-02.44.54:816][  0]SourceControl: Source control is disabled
-[2017.11.29-02.44.54:866][  0]SourceControl: Source control is disabled
-[2017.11.29-02.44.54:914][  0]SourceControl: Source control is disabled
-[2017.11.29-02.44.55:678][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.11.29-02.44.55:943][  0]LogOcInput: OculusInput pre-init called
-[2017.11.29-02.44.56:211][  0]LogEngine: Initializing Engine...
-[2017.11.29-02.44.56:213][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.11.29-02.44.56:419][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.11.29-02.44.56:419][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.11.29-02.44.56:548][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.11.29-02.44.56:554][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.11.29-02.44.56:570][  0]LogInit: FAudioDevice initialized.
-[2017.11.29-02.44.56:644][  0]LogDerivedDataCache: Saved boot cache 0.07s 78MB C:/Users/jpyepez/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2017.11.29-02.44.56:659][  0]LogInit: Texture streaming: Enabled
-[2017.11.29-02.44.56:751][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.11.29-02.44.56:875][  0]LogInit: Transaction tracking system initialized
-[2017.11.29-02.44.57:146][  0]BlueprintLog: New page: Editor Load
-[2017.11.29-02.44.57:957][  0]LocalizationService: Localization service is disabled
-[2017.11.29-02.44.58:639][  0]LogConsoleResponse: Display: 
-[2017.11.29-02.44.58:948][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.11.29-02.44.58:948][  0]LogCook: Display: Mobile HDR setting 1
-[2017.11.29-02.44.58:948][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2017.11.29-02.44.59:087][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jpyepez/Documents/Unreal Projects/UE4PG2/Content/' took 0.01s
-[2017.11.29-02.45.00:107][  0]SourceControl: Source control is disabled
-[2017.11.29-02.45.00:107][  0]Cmd: MAP LOAD FILE="../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4PG2/Content/MyMaps/StartMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.11.29-02.45.00:107][  0]LightingResults: New page: Lighting Build
-[2017.11.29-02.45.00:143][  0]MapCheck: New page: Map Check
-[2017.11.29-02.45.00:143][  0]LightingResults: New page: Lighting Build
-[2017.11.29-02.45.00:341][  0]LogAIModule: Creating AISystem for world StartMap
-[2017.11.29-02.45.00:346][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.11.29-02.45.00:361][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.11.29-02.45.00:405][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 44.332ms to complete.
-[2017.11.29-02.45.00:405][  0]LogFileHelpers: Loading map 'StartMap' took 0.298
-[2017.11.29-02.45.00:613][  0]LogCollectionManager: Loaded 0 collections in 0.002040 seconds
-[2017.11.29-02.45.00:687][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jpyepez/Documents/Unreal Projects/UE4PG2/Saved/Collections/' took 0.01s
-[2017.11.29-02.45.00:687][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jpyepez/Documents/Unreal Projects/UE4PG2/Content/Developers/jpyepez/Collections/' took 0.01s
-[2017.11.29-02.45.00:687][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jpyepez/Documents/Unreal Projects/UE4PG2/Content/Collections/' took 0.01s
-[2017.11.29-02.45.00:687][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2017.11.29-02.45.00:695][  0]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 2365 classes and 523 folders.
-[2017.11.29-02.45.00:754][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2017.11.29-02.45.01:064][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2017.11.29-02.45.01:078][  0]LogSlate: Took 0.007397 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.11.29-02.45.01:086][  0]LogSlate: Took 0.004229 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.11.29-02.45.01:092][  0]LogSlate: Took 0.004398 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.11.29-02.45.01:171][  0]LogRenderer: Reallocating scene render targets to support 1248x604 Format 10 NumSamples 1 (Frame:1).
-[2017.11.29-02.45.01:214][  0]LogSlate: Took 0.004418 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.11.29-02.45.01:338][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2017.11.29-02.45.01:338][  0]LogLoad: (Engine Initialization) Total time: 56.94 seconds
-[2017.11.29-02.45.01:338][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2017.11.29-02.45.01:338][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2017.11.29-02.45.01:368][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.11.29-02.45.01:415][  1]LogAssetRegistry: Asset discovery search completed in 12.6202 seconds
-[2017.11.29-02.45.01:417][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.11.29-02.45.01:418][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000061 seconds (updated 0 objects)
-[2017.11.29-02.46.01:411][190]LogHttp: Warning: 000001AE4CAF3D00: request failed, libcurl error: 56 (Failure when receiving data from the peer)
-[2017.11.29-02.46.01:411][190]LogHttp: Warning: 000001AE4CAF3D00: libcurl info message cache 0 (  Trying 130.195.5.7...)
-[2017.11.29-02.46.01:411][190]LogHttp: Warning: 000001AE4CAF3D00: libcurl info message cache 1 (Connected to www-cache.ecs.vuw.ac.nz (130.195.5.7) port 8080 (#0))
-[2017.11.29-02.46.01:411][190]LogHttp: Warning: 000001AE4CAF3D00: libcurl info message cache 2 (Establish HTTP proxy tunnel to datarouter.ol.epicgames.com:443)
-[2017.11.29-02.46.01:411][190]LogHttp: Warning: 000001AE4CAF3D00: libcurl info message cache 3 (Ignore 3325 bytes of response-body)
-[2017.11.29-02.46.01:411][190]LogHttp: Warning: 000001AE4CAF3D00: libcurl info message cache 4 (Received HTTP code 407 from proxy after CONNECT)
-[2017.11.29-02.46.01:411][190]LogHttp: Warning: 000001AE4CAF3D00: libcurl info message cache 5 (Closing connection 0)
-[2017.11.29-02.48.01:507][601]LogHttp: Warning: 000001AE4CAF1300: request failed, libcurl error: 56 (Failure when receiving data from the peer)
-[2017.11.29-02.48.01:507][601]LogHttp: Warning: 000001AE4CAF1300: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
-[2017.11.29-02.48.01:507][601]LogHttp: Warning: 000001AE4CAF1300: libcurl info message cache 1 (  Trying 130.195.5.7...)
-[2017.11.29-02.48.01:507][601]LogHttp: Warning: 000001AE4CAF1300: libcurl info message cache 2 (Connected to www-cache.ecs.vuw.ac.nz (130.195.5.7) port 8080 (#1))
-[2017.11.29-02.48.01:507][601]LogHttp: Warning: 000001AE4CAF1300: libcurl info message cache 3 (Establish HTTP proxy tunnel to datarouter.ol.epicgames.com:443)
-[2017.11.29-02.48.01:507][601]LogHttp: Warning: 000001AE4CAF1300: libcurl info message cache 4 (Ignore 3325 bytes of response-body)
-[2017.11.29-02.48.01:507][601]LogHttp: Warning: 000001AE4CAF1300: libcurl info message cache 5 (Received HTTP code 407 from proxy after CONNECT)
-[2017.11.29-02.48.01:507][601]LogHttp: Warning: 000001AE4CAF1300: libcurl info message cache 6 (Closing connection 1)
-[2017.11.29-02.50.01:554][  6]LogHttp: Warning: 000001AE4CAF1780: request failed, libcurl error: 56 (Failure when receiving data from the peer)
-[2017.11.29-02.50.01:554][  6]LogHttp: Warning: 000001AE4CAF1780: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
-[2017.11.29-02.50.01:554][  6]LogHttp: Warning: 000001AE4CAF1780: libcurl info message cache 1 (  Trying 130.195.5.7...)
-[2017.11.29-02.50.01:554][  6]LogHttp: Warning: 000001AE4CAF1780: libcurl info message cache 2 (Connected to www-cache.ecs.vuw.ac.nz (130.195.5.7) port 8080 (#2))
-[2017.11.29-02.50.01:554][  6]LogHttp: Warning: 000001AE4CAF1780: libcurl info message cache 3 (Establish HTTP proxy tunnel to datarouter.ol.epicgames.com:443)
-[2017.11.29-02.50.01:554][  6]LogHttp: Warning: 000001AE4CAF1780: libcurl info message cache 4 (Ignore 3325 bytes of response-body)
-[2017.11.29-02.50.01:554][  6]LogHttp: Warning: 000001AE4CAF1780: libcurl info message cache 5 (Received HTTP code 407 from proxy after CONNECT)
-[2017.11.29-02.50.01:554][  6]LogHttp: Warning: 000001AE4CAF1780: libcurl info message cache 6 (Closing connection 2)
-[2017.11.29-02.52.01:634][415]LogHttp: Warning: 000001AE4CAF1780: request failed, libcurl error: 56 (Failure when receiving data from the peer)
-[2017.11.29-02.52.01:634][415]LogHttp: Warning: 000001AE4CAF1780: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
-[2017.11.29-02.52.01:634][415]LogHttp: Warning: 000001AE4CAF1780: libcurl info message cache 1 (  Trying 130.195.5.7...)
-[2017.11.29-02.52.01:634][415]LogHttp: Warning: 000001AE4CAF1780: libcurl info message cache 2 (Connected to www-cache.ecs.vuw.ac.nz (130.195.5.7) port 8080 (#3))
-[2017.11.29-02.52.01:634][415]LogHttp: Warning: 000001AE4CAF1780: libcurl info message cache 3 (Establish HTTP proxy tunnel to datarouter.ol.epicgames.com:443)
-[2017.11.29-02.52.01:634][415]LogHttp: Warning: 000001AE4CAF1780: libcurl info message cache 4 (Ignore 3325 bytes of response-body)
-[2017.11.29-02.52.01:634][415]LogHttp: Warning: 000001AE4CAF1780: libcurl info message cache 5 (Received HTTP code 407 from proxy after CONNECT)
-[2017.11.29-02.52.01:634][415]LogHttp: Warning: 000001AE4CAF1780: libcurl info message cache 6 (Closing connection 3)
-[2017.11.29-02.54.01:710][823]LogHttp: Warning: 000001AE4CAF2500: request failed, libcurl error: 56 (Failure when receiving data from the peer)
-[2017.11.29-02.54.01:710][823]LogHttp: Warning: 000001AE4CAF2500: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
-[2017.11.29-02.54.01:710][823]LogHttp: Warning: 000001AE4CAF2500: libcurl info message cache 1 (  Trying 130.195.5.7...)
-[2017.11.29-02.54.01:710][823]LogHttp: Warning: 000001AE4CAF2500: libcurl info message cache 2 (Connected to www-cache.ecs.vuw.ac.nz (130.195.5.7) port 8080 (#4))
-[2017.11.29-02.54.01:710][823]LogHttp: Warning: 000001AE4CAF2500: libcurl info message cache 3 (Establish HTTP proxy tunnel to datarouter.ol.epicgames.com:443)
-[2017.11.29-02.54.01:710][823]LogHttp: Warning: 000001AE4CAF2500: libcurl info message cache 4 (Ignore 3325 bytes of response-body)
-[2017.11.29-02.54.01:710][823]LogHttp: Warning: 000001AE4CAF2500: libcurl info message cache 5 (Received HTTP code 407 from proxy after CONNECT)
-[2017.11.29-02.54.01:710][823]LogHttp: Warning: 000001AE4CAF2500: libcurl info message cache 6 (Closing connection 4)
-[2017.11.29-02.54.52:150][870]LogSlate: Took 0.000148 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.11.29-02.54.52:190][870]LogSlate: Took 0.007110 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2017.11.29-02.55.05:552][468]Running C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/jpyepez/Documents/Unreal Projects/UE4PG2/UE4PG2.uproject" -game -rocket -progress
-[2017.11.29-02.55.05:754][468]Discovering modules, targets and source code for project...
-[2017.11.29-02.55.08:266][468]LogSlate: Took 0.000154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.11.29-02.55.09:582][468]LogVSAccessor: Warning: Couldn't access Visual Studio
-[2017.11.29-02.55.09:587][468]Candidate modules for hot reload:
-[2017.11.29-02.55.09:587][468]  UE4PG2
-[2017.11.29-02.55.09:588][468]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe UE4PG2 -ModuleWithSuffix UE4PG2 9870 Win64 Development -editorrecompile -canskiplink "C:/Users/jpyepez/Documents/Unreal Projects/UE4PG2/UE4PG2.uproject" ]
-[2017.11.29-02.55.24:559][468]CompilerResultsLog: New page: Compilation - Nov 30, 2017, 4:55:24 AM
-[2017.11.29-02.55.24:559][468]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2017.11.29-02.55.24:559][468]CompilerResultsLog: Creating makefile for hot reloading UE4PG2 (UHT file was deleted)
-[2017.11.29-02.55.24:559][468]CompilerResultsLog: Compiling game modules for hot reload
-[2017.11.29-02.55.24:559][468]CompilerResultsLog: Parsing headers for UE4PG2Editor
-[2017.11.29-02.55.24:559][468]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\jpyepez\Documents\Unreal Projects\UE4PG2\UE4PG2.uproject" "C:\Users\jpyepez\Documents\Unreal Projects\UE4PG2\Intermediate\Build\Win64\UE4PG2Editor\Development\UE4PG2Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2017.11.29-02.55.24:559][468]CompilerResultsLog: Reflection code generated for UE4PG2Editor in 8.025624 seconds
-[2017.11.29-02.55.24:559][468]CompilerResultsLog: Performing 5 actions (9 in parallel)
-[2017.11.29-02.55.24:559][468]CompilerResultsLog: MyPawnBall.gen.cpp
-[2017.11.29-02.55.24:559][468]CompilerResultsLog: UE4PG2.init.gen.cpp
-[2017.11.29-02.55.24:559][468]CompilerResultsLog: MyPawnBall.cpp
-[2017.11.29-02.55.24:559][468]CompilerResultsLog: [4/5] Link UE4Editor-UE4PG2-9870.dll
-[2017.11.29-02.55.24:559][468]CompilerResultsLog: [5/5] Link UE4Editor-UE4PG2-9870.lib
-[2017.11.29-02.55.24:559][468]CompilerResultsLog:    Creating library C:\Users\jpyepez\Documents\Unreal Projects\UE4PG2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4PG2-9870.lib and object C:\Users\jpyepez\Documents\Unreal Projects\UE4PG2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4PG2-9870.exp
-[2017.11.29-02.55.24:559][468]CompilerResultsLog:    Creating library C:\Users\jpyepez\Documents\Unreal Projects\UE4PG2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4PG2-9870.suppressed.lib and object C:\Users\jpyepez\Documents\Unreal Projects\UE4PG2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4PG2-9870.suppressed.exp
-[2017.11.29-02.55.24:559][468]CompilerResultsLog: Total build time: 14.81 seconds (Local executor: 1.21 seconds)
-[2017.11.29-02.55.24:559][468]LogMainFrame: MainFrame: Module compiling took 14.976 seconds
-[2017.11.29-02.55.24:640][468]LogClass: Could not find existing class MyPawnBall in package /Script/UE4PG2 for HotReload, assuming new class
-[2017.11.29-02.55.24:642][468]LogContentBrowser: Native class hierarchy updated for 'UE4PG2' in 0.0006 seconds. Added 2 classes and 2 folders.
-[2017.11.29-02.55.24:642][468]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2017.11.29-02.55.24:734][468]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 2367 classes and 525 folders.
-[2017.11.29-02.55.24:736][468]Display: HotReload took 15.2s.
-[2017.11.29-02.55.24:737][468]Warning: HotReload operation took 15.2s.
-[2017.11.29-02.55.24:770][468]LogHotReload: New module detected: UE4Editor-UE4PG2-9870.dll
-[2017.11.29-02.55.24:791][469]LogHotReload: Starting Hot-Reload from IDE
-[2017.11.29-02.55.24:876][469]LogContentBrowser: Native class hierarchy updated for 'UE4PG2' in 0.0006 seconds. Added 2 classes and 2 folders.
-[2017.11.29-02.55.24:877][469]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2017.11.29-02.55.24:902][469]LogContentBrowser: Native class hierarchy populated in 0.0110 seconds. Added 2367 classes and 525 folders.
-[2017.11.29-02.55.24:909][469]Display: HotReload took  0.1s.
-[2017.11.29-02.56.02:672][572]LogHttp: Warning: 000001AE4BBA8100: request failed, libcurl error: 56 (Failure when receiving data from the peer)
-[2017.11.29-02.56.02:672][572]LogHttp: Warning: 000001AE4BBA8100: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
-[2017.11.29-02.56.02:672][572]LogHttp: Warning: 000001AE4BBA8100: libcurl info message cache 1 (  Trying 130.195.5.7...)
-[2017.11.29-02.56.02:672][572]LogHttp: Warning: 000001AE4BBA8100: libcurl info message cache 2 (Connected to www-cache.ecs.vuw.ac.nz (130.195.5.7) port 8080 (#5))
-[2017.11.29-02.56.02:672][572]LogHttp: Warning: 000001AE4BBA8100: libcurl info message cache 3 (Establish HTTP proxy tunnel to datarouter.ol.epicgames.com:443)
-[2017.11.29-02.56.02:672][572]LogHttp: Warning: 000001AE4BBA8100: libcurl info message cache 4 (Ignore 3325 bytes of response-body)
-[2017.11.29-02.56.02:672][572]LogHttp: Warning: 000001AE4BBA8100: libcurl info message cache 5 (Received HTTP code 407 from proxy after CONNECT)
-[2017.11.29-02.56.02:672][572]LogHttp: Warning: 000001AE4BBA8100: libcurl info message cache 6 (Closing connection 5)
-[2017.11.29-02.56.14:129][605]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2017.11.29-02.56.14:334][606]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2017.11.29-02.56.14:667][607]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2017.11.29-02.56.15:000][608]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2017.11.29-02.56.15:333][609]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2017.11.29-02.56.15:667][610]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2017.11.29-02.56.16:000][611]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2017.11.29-02.56.16:334][612]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2017.11.29-02.56.16:667][613]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2017.11.29-02.56.17:001][614]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
-[2017.11.29-02.58.03:020][933]LogHttp: Warning: 000001AE4BBAA500: request failed, libcurl error: 56 (Failure when receiving data from the peer)
-[2017.11.29-02.58.03:020][933]LogHttp: Warning: 000001AE4BBAA500: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
-[2017.11.29-02.58.03:020][933]LogHttp: Warning: 000001AE4BBAA500: libcurl info message cache 1 (  Trying 130.195.5.7...)
-[2017.11.29-02.58.03:020][933]LogHttp: Warning: 000001AE4BBAA500: libcurl info message cache 2 (Connected to www-cache.ecs.vuw.ac.nz (130.195.5.7) port 8080 (#6))
-[2017.11.29-02.58.03:020][933]LogHttp: Warning: 000001AE4BBAA500: libcurl info message cache 3 (Establish HTTP proxy tunnel to datarouter.ol.epicgames.com:443)
-[2017.11.29-02.58.03:020][933]LogHttp: Warning: 000001AE4BBAA500: libcurl info message cache 4 (Ignore 3325 bytes of response-body)
-[2017.11.29-02.58.03:020][933]LogHttp: Warning: 000001AE4BBAA500: libcurl info message cache 5 (Received HTTP code 407 from proxy after CONNECT)
-[2017.11.29-02.58.03:020][933]LogHttp: Warning: 000001AE4BBAA500: libcurl info message cache 6 (Closing connection 6)
-[2017.11.29-02.58.07:839][ 38]LogVSAccessor: Warning: Couldn't access Visual Studio
-[2017.11.29-02.58.07:844][ 38]Candidate modules for hot reload:
-[2017.11.29-02.58.07:844][ 38]  UE4PG2
-[2017.11.29-02.58.07:844][ 38]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe UE4PG2 -ModuleWithSuffix UE4PG2 3472 Win64 Development -editorrecompile -canskiplink "C:/Users/jpyepez/Documents/Unreal Projects/UE4PG2/UE4PG2.uproject" ]
-[2017.11.29-02.58.07:846][ 38]Warning: Starting HotReload took  0.0s.
-[2017.11.29-02.58.09:391][221]CompilerResultsLog: New page: Compilation - Nov 30, 2017, 4:58:09 AM
-[2017.11.29-02.58.09:391][221]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2017.11.29-02.58.09:391][221]CompilerResultsLog: Compiling game modules for hot reload
-[2017.11.29-02.58.09:391][221]CompilerResultsLog: Performing 3 actions (9 in parallel)
-[2017.11.29-02.58.09:391][221]CompilerResultsLog: MyPawnBall.cpp
-[2017.11.29-02.58.09:391][221]CompilerResultsLog: Error: C:\Users\jpyepez\Documents\Unreal Projects\UE4PG2\Source\UE4PG2\MyPawnBall.cpp(21) : error C2065: 'OurVisibleComponent': undeclared identifier
-[2017.11.29-02.58.09:392][221]CompilerResultsLog: Error: C:\Users\jpyepez\Documents\Unreal Projects\UE4PG2\Source\UE4PG2\MyPawnBall.cpp(26) : error C2065: 'OurVisibleComponent': undeclared identifier
-[2017.11.29-02.58.09:392][221]CompilerResultsLog: Error: C:\Users\jpyepez\Documents\Unreal Projects\UE4PG2\Source\UE4PG2\MyPawnBall.cpp(26) : error C2227: left of '->SetupAttachment' must point to class/struct/union/generic type
-[2017.11.29-02.58.09:392][221]CompilerResultsLog: Error: C:\Users\jpyepez\Documents\Unreal Projects\UE4PG2\Source\UE4PG2\MyPawnBall.cpp(26) : note: type is 'unknown-type'
-[2017.11.29-02.58.09:392][221]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\jpyepez\Documents\Unreal Projects\UE4PG2\Binaries\Win64\UE4Editor-UE4PG2-3472.dll
-[2017.11.29-02.58.09:392][221]CompilerResultsLog: Total build time: 1.37 seconds (Local executor: 0.00 seconds)
-[2017.11.29-02.58.09:392][221]LogMainFrame: MainFrame: Module compiling took 1.553 seconds
-[2017.11.29-02.58.09:392][221]Warning: HotReload failed, recompile failed
-[2017.11.29-02.59.28:452][159]LogVSAccessor: Warning: Couldn't access Visual Studio
-[2017.11.29-02.59.28:457][159]Candidate modules for hot reload:
-[2017.11.29-02.59.28:457][159]  UE4PG2
-[2017.11.29-02.59.28:457][159]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe UE4PG2 -ModuleWithSuffix UE4PG2 5578 Win64 Development -editorrecompile -canskiplink "C:/Users/jpyepez/Documents/Unreal Projects/UE4PG2/UE4PG2.uproject" ]
-[2017.11.29-02.59.28:458][159]Warning: Starting HotReload took  0.0s.
-[2017.11.29-02.59.39:343][461]CompilerResultsLog: New page: Compilation - Nov 30, 2017, 4:59:39 AM
-[2017.11.29-02.59.39:343][461]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2017.11.29-02.59.39:343][461]CompilerResultsLog: Compiling game modules for hot reload
-[2017.11.29-02.59.39:343][461]CompilerResultsLog: Parsing headers for UE4PG2Editor
-[2017.11.29-02.59.39:343][461]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\jpyepez\Documents\Unreal Projects\UE4PG2\UE4PG2.uproject" "C:\Users\jpyepez\Documents\Unreal Projects\UE4PG2\Intermediate\Build\Win64\UE4PG2Editor\Development\UE4PG2Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2017.11.29-02.59.39:344][461]CompilerResultsLog: Reflection code generated for UE4PG2Editor in 8.5103521 seconds
-[2017.11.29-02.59.39:344][461]CompilerResultsLog: Performing 5 actions (9 in parallel)
-[2017.11.29-02.59.39:344][461]CompilerResultsLog: UE4PG2.init.gen.cpp
-[2017.11.29-02.59.39:344][461]CompilerResultsLog: MyPawnBall.cpp
-[2017.11.29-02.59.39:344][461]CompilerResultsLog: MyPawnBall.gen.cpp
-[2017.11.29-02.59.39:344][461]CompilerResultsLog: [4/5] Link UE4Editor-UE4PG2-5578.dll
-[2017.11.29-02.59.39:344][461]CompilerResultsLog: [5/5] Link UE4Editor-UE4PG2-5578.lib
-[2017.11.29-02.59.39:344][461]CompilerResultsLog:    Creating library C:\Users\jpyepez\Documents\Unreal Projects\UE4PG2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4PG2-5578.lib and object C:\Users\jpyepez\Documents\Unreal Projects\UE4PG2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4PG2-5578.exp
-[2017.11.29-02.59.39:344][461]CompilerResultsLog:    Creating library C:\Users\jpyepez\Documents\Unreal Projects\UE4PG2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4PG2-5578.suppressed.lib and object C:\Users\jpyepez\Documents\Unreal Projects\UE4PG2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4PG2-5578.suppressed.exp
-[2017.11.29-02.59.39:344][461]CompilerResultsLog: Total build time: 10.71 seconds (Local executor: 1.22 seconds)
-[2017.11.29-02.59.39:344][461]LogMainFrame: MainFrame: Module compiling took 10.892 seconds
-[2017.11.29-02.59.39:420][461]LogClass: Could not find existing class MyPawnBall in package /Script/UE4PG2 for HotReload, assuming new class
-[2017.11.29-02.59.39:422][461]LogHotReload: Re-instancing MyPawnBall after hot-reload.
-[2017.11.29-02.59.39:477][461]LogContentBrowser: Native class hierarchy updated for 'UE4PG2' in 0.0007 seconds. Added 2 classes and 2 folders.
-[2017.11.29-02.59.39:478][461]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2017.11.29-02.59.39:516][461]LogContentBrowser: Native class hierarchy populated in 0.0084 seconds. Added 2367 classes and 525 folders.
-[2017.11.29-02.59.39:518][461]Display: HotReload took 11.1s.
-[2017.11.29-02.59.41:767][730]LogTemp: Repeating last play command: Selected Viewport
-[2017.11.29-02.59.42:922][730]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.29-02.59.42:924][730]PIE: New page: PIE session: StartMap (Nov 30, 2017, 4:59:42 AM)
-[2017.11.29-02.59.42:924][730]LogPlayLevel: Creating play world package: /Game/MyMaps/UEDPIE_0_StartMap
-[2017.11.29-02.59.42:929][730]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005066s)
-[2017.11.29-02.59.42:930][730]LogAIModule: Creating AISystem for world StartMap
-[2017.11.29-02.59.42:931][730]LogPlayLevel: PIE: World Init took: (0.001139s)
-[2017.11.29-02.59.42:931][730]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyMaps/StartMap.StartMap to /Game/MyMaps/UEDPIE_0_StartMap.StartMap (0.006854s)
-[2017.11.29-02.59.42:947][730]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.11.29-02.59.42:960][730]LogInit: FAudioDevice initialized.
-[2017.11.29-02.59.43:005][730]LogUObjectGlobals: Warning: Failed to find object 'Class /Script/UE4PG2.UE4PG2GameMode'
-[2017.11.29-02.59.43:005][730]LogLoad: Game class is 'GameModeBase'
-[2017.11.29-02.59.43:017][730]LogWorld: Bringing World /Game/MyMaps/UEDPIE_0_StartMap.StartMap up for play (max tick rate 0) at 2017.11.29-15.59.43
-[2017.11.29-02.59.43:018][730]LogWorld: Bringing up level for play took: 0.001793
-[2017.11.29-02.59.43:087][730]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
-[2017.11.29-02.59.43:091][730]PIE: Play in editor start time for /Game/MyMaps/UEDPIE_0_StartMap 0.297
-[2017.11.29-02.59.48:530][369]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMaps/StartMap" FILE="../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4PG2/Content/MyMaps/StartMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.11.29-02.59.48:579][369]LogSavePackage: Save=26.68ms
-[2017.11.29-02.59.48:579][369]LogSavePackage: Moving '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4PG2/Saved/StartMap4A3291974EF4C19A263A7F8569F5EFE3.tmp' to '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4PG2/Content/MyMaps/StartMap.umap'
-[2017.11.29-02.59.48:581][369]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4PG2/Content/MyMaps/StartMap.umap
-[2017.11.29-02.59.48:598][369]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMaps/StartMap_BuiltData" FILE="../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4PG2/Content/MyMaps/StartMap_BuiltData.uasset" SILENT=true
-[2017.11.29-02.59.48:619][369]LogSavePackage: Save=15.14ms
-[2017.11.29-02.59.48:619][369]LogSavePackage: Moving '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4PG2/Saved/StartMap_BuiltData14ABC47941D18B7B81D7E9B6BEB34F44.tmp' to '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4PG2/Content/MyMaps/StartMap_BuiltData.uasset'
-[2017.11.29-02.59.48:621][369]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4PG2/Content/MyMaps/StartMap_BuiltData.uasset
-[2017.11.29-02.59.49:918][516]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.11.29-02.59.50:083][517]Cmd: QUIT_EDITOR
-[2017.11.29-02.59.51:018][517]LogExit: Preparing to exit.
-[2017.11.29-02.59.52:028][517]LogDirectoryWatcher: A directory notification for 'C:/Users/jpyepez/Documents/Unreal Projects/UE4PG2/Content/' was aborted.
-[2017.11.29-02.59.52:040][517]LogExit: Editor shut down
-[2017.11.29-02.59.52:044][517]LogExit: Transaction tracking system shut down
-[2017.11.29-02.59.52:216][517]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2017.11.29-02.59.52:216][517]LogDirectoryWatcher: A directory notification for '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4PG2/Content/' was aborted.
-[2017.11.29-02.59.52:216][517]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2017.11.29-02.59.52:216][517]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
-[2017.11.29-02.59.52:216][517]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
-[2017.11.29-02.59.52:216][517]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2017.11.29-02.59.52:216][517]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2017.11.29-02.59.52:258][517]LogExit: Object subsystem successfully closed.
-[2017.11.29-02.59.52:274][517]LogD3D11RHI: Shutdown
-[2017.11.29-02.59.52:274][517]LogD3D11RHI: CleanupD3DDevice
-[2017.11.29-02.59.52:275][517]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.11.29-02.59.52:292][517]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (555)
-[2017.11.29-02.59.52:292][517]LogModuleManager: Shutting down and abandoning module UE4PG2 (553)
-[2017.11.29-02.59.52:292][517]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (550)
-[2017.11.29-02.59.52:292][517]LogModuleManager: Shutting down and abandoning module AddContentDialog (548)
-[2017.11.29-02.59.52:292][517]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
-[2017.11.29-02.59.52:293][517]LogModuleManager: Shutting down and abandoning module WidgetCarousel (547)
-[2017.11.29-02.59.52:293][517]LogModuleManager: Shutting down and abandoning module EditorWidgets (544)
-[2017.11.29-02.59.52:293][517]LogModuleManager: Shutting down and abandoning module CollectionManager (542)
-[2017.11.29-02.59.52:293][517]LogDirectoryWatcher: A directory notification for 'C:/Users/jpyepez/Documents/Unreal Projects/UE4PG2/Content/Collections/' was aborted.
-[2017.11.29-02.59.52:293][517]LogDirectoryWatcher: A directory notification for 'C:/Users/jpyepez/Documents/Unreal Projects/UE4PG2/Content/Developers/jpyepez/Collections/' was aborted.
-[2017.11.29-02.59.52:293][517]LogDirectoryWatcher: A directory notification for 'C:/Users/jpyepez/Documents/Unreal Projects/UE4PG2/Saved/Collections/' was aborted.
-[2017.11.29-02.59.52:293][517]LogModuleManager: Shutting down and abandoning module SceneOutliner (540)
-[2017.11.29-02.59.52:293][517]LogModuleManager: Shutting down and abandoning module StatsViewer (538)
-[2017.11.29-02.59.52:293][517]LogModuleManager: Shutting down and abandoning module FoliageEdit (536)
-[2017.11.29-02.59.52:293][517]LogModuleManager: Shutting down and abandoning module LandscapeEditor (534)
-[2017.11.29-02.59.52:293][517]LogModuleManager: Shutting down and abandoning module MeshPaintMode (532)
-[2017.11.29-02.59.52:293][517]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (530)
-[2017.11.29-02.59.52:293][517]LogModuleManager: Shutting down and abandoning module ActorPickerMode (528)
-[2017.11.29-02.59.52:293][517]LogModuleManager: Shutting down and abandoning module GeometryMode (526)
-[2017.11.29-02.59.52:293][517]LogModuleManager: Shutting down and abandoning module TextureAlignMode (524)
-[2017.11.29-02.59.52:293][517]LogModuleManager: Shutting down and abandoning module BspMode (522)
-[2017.11.29-02.59.52:293][517]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (520)
-[2017.11.29-02.59.52:293][517]LogModuleManager: Shutting down and abandoning module HardwareSurvey (518)
-[2017.11.29-02.59.52:293][517]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (516)
-[2017.11.29-02.59.52:293][517]LogModuleManager: Shutting down and abandoning module AutomationWorker (514)
-[2017.11.29-02.59.52:293][517]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (512)
-[2017.11.29-02.59.52:294][517]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (510)
-[2017.11.29-02.59.52:294][517]LogModuleManager: Shutting down and abandoning module PlacementMode (509)
-[2017.11.29-02.59.52:294][517]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (506)
-[2017.11.29-02.59.52:294][517]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (504)
-[2017.11.29-02.59.52:294][517]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (502)
-[2017.11.29-02.59.52:294][517]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (500)
-[2017.11.29-02.59.52:294][517]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (498)
-[2017.11.29-02.59.52:294][517]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (496)
-[2017.11.29-02.59.52:294][517]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (494)
-[2017.11.29-02.59.52:294][517]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (492)
-[2017.11.29-02.59.52:294][517]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (490)
-[2017.11.29-02.59.52:294][517]LogModuleManager: Shutting down and abandoning module CharacterAI (488)
-[2017.11.29-02.59.52:294][517]LogModuleManager: Shutting down and abandoning module AudioCapture (486)
-[2017.11.29-02.59.52:294][517]LogModuleManager: Shutting down and abandoning module SequenceRecorder (485)
-[2017.11.29-02.59.52:294][517]LogModuleManager: Shutting down and abandoning module SmartSnapping (482)
-[2017.11.29-02.59.52:294][517]LogModuleManager: Shutting down and abandoning module SessionServices (480)
-[2017.11.29-02.59.52:294][517]LogModuleManager: Shutting down and abandoning module ViewportSnapping (478)
-[2017.11.29-02.59.52:294][517]LogModuleManager: Shutting down and abandoning module ViewportInteraction (476)
-[2017.11.29-02.59.52:294][517]LogModuleManager: Shutting down and abandoning module ClothPainter (474)
-[2017.11.29-02.59.52:294][517]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (473)
-[2017.11.29-02.59.52:294][517]LogModuleManager: Shutting down and abandoning module LogVisualizer (470)
-[2017.11.29-02.59.52:294][517]LogModuleManager: Shutting down and abandoning module IntroTutorials (468)
-[2017.11.29-02.59.52:294][517]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (467)
-[2017.11.29-02.59.52:294][517]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (464)
-[2017.11.29-02.59.52:294][517]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (462)
-[2017.11.29-02.59.52:294][517]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (460)
-[2017.11.29-02.59.52:294][517]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (459)
-[2017.11.29-02.59.52:602][517]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (456)
-[2017.11.29-02.59.52:602][517]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (454)
-[2017.11.29-02.59.52:602][517]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (452)
-[2017.11.29-02.59.52:602][517]LogModuleManager: Shutting down and abandoning module InputBindingEditor (450)
-[2017.11.29-02.59.52:602][517]LogModuleManager: Shutting down and abandoning module MergeActors (448)
-[2017.11.29-02.59.52:602][517]LogModuleManager: Shutting down and abandoning module SizeMap (446)
-[2017.11.29-02.59.52:602][517]LogModuleManager: Shutting down and abandoning module TreeMap (444)
-[2017.11.29-02.59.52:602][517]LogModuleManager: Shutting down and abandoning module ReferenceViewer (442)
-[2017.11.29-02.59.52:602][517]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (440)
-[2017.11.29-02.59.52:602][517]LogModuleManager: Shutting down and abandoning module LocalizationService (439)
-[2017.11.29-02.59.52:602][517]LogModuleManager: Shutting down and abandoning module HardwareTargeting (436)
-[2017.11.29-02.59.52:602][517]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (434)
-[2017.11.29-02.59.52:602][517]LogModuleManager: Shutting down and abandoning module UndoHistory (432)
-[2017.11.29-02.59.52:602][517]LogModuleManager: Shutting down and abandoning module XmlParser (430)
-[2017.11.29-02.59.52:602][517]LogModuleManager: Shutting down and abandoning module Blutility (428)
-[2017.11.29-02.59.52:602][517]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (426)
-[2017.11.29-02.59.52:602][517]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (425)
-[2017.11.29-02.59.52:603][517]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (422)
-[2017.11.29-02.59.52:603][517]LogModuleManager: Shutting down and abandoning module SettingsEditor (420)
-[2017.11.29-02.59.52:603][517]LogModuleManager: Shutting down and abandoning module ProjectLauncher (418)
-[2017.11.29-02.59.52:603][517]LogModuleManager: Shutting down and abandoning module SessionFrontend (416)
-[2017.11.29-02.59.52:603][517]LogModuleManager: Shutting down and abandoning module ProfilerClient (414)
-[2017.11.29-02.59.52:603][517]LogModuleManager: Shutting down and abandoning module DeviceManager (412)
-[2017.11.29-02.59.52:603][517]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (411)
-[2017.11.29-02.59.52:669][517]LogModuleManager: Shutting down and abandoning module AutomationController (408)
-[2017.11.29-02.59.52:669][517]LogModuleManager: Shutting down and abandoning module AutomationWindow (406)
-[2017.11.29-02.59.52:669][517]LogModuleManager: Shutting down and abandoning module Layers (404)
-[2017.11.29-02.59.52:669][517]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (402)
-[2017.11.29-02.59.52:669][517]LogModuleManager: Shutting down and abandoning module DetailCustomizations (400)
-[2017.11.29-02.59.52:669][517]LogModuleManager: Shutting down and abandoning module PackagesDialog (398)
-[2017.11.29-02.59.52:669][517]LogModuleManager: Shutting down and abandoning module Persona (396)
-[2017.11.29-02.59.52:669][517]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (395)
-[2017.11.29-02.59.52:669][517]LogModuleManager: Shutting down and abandoning module AnimGraph (393)
-[2017.11.29-02.59.52:669][517]LogModuleManager: Shutting down and abandoning module Kismet (390)
-[2017.11.29-02.59.52:670][517]LogModuleManager: Shutting down and abandoning module ClassViewer (388)
-[2017.11.29-02.59.52:671][517]LogModuleManager: Shutting down and abandoning module Toolbox (386)
-[2017.11.29-02.59.52:671][517]LogModuleManager: Shutting down and abandoning module ModuleUI (384)
-[2017.11.29-02.59.52:671][517]LogModuleManager: Shutting down and abandoning module MovieSceneTools (382)
-[2017.11.29-02.59.52:671][517]LogModuleManager: Shutting down and abandoning module OutputLog (380)
-[2017.11.29-02.59.52:671][517]LogModuleManager: Shutting down and abandoning module GammaUI (378)
-[2017.11.29-02.59.52:671][517]LogModuleManager: Shutting down and abandoning module Documentation (376)
-[2017.11.29-02.59.52:671][517]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (374)
-[2017.11.29-02.59.52:671][517]LogModuleManager: Shutting down and abandoning module MovieScene (372)
-[2017.11.29-02.59.52:671][517]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (370)
-[2017.11.29-02.59.52:671][517]LogModuleManager: Shutting down and abandoning module LauncherPlatform (368)
-[2017.11.29-02.59.52:671][517]LogModuleManager: Shutting down and abandoning module AnalyticsET (366)
-[2017.11.29-02.59.52:671][517]LogModuleManager: Shutting down and abandoning module PortalServices (364)
-[2017.11.29-02.59.52:671][517]LogModuleManager: Shutting down and abandoning module PortalRpc (362)
-[2017.11.29-02.59.52:671][517]LogModuleManager: Shutting down and abandoning module MessagingRpc (360)
-[2017.11.29-02.59.52:671][517]LogModuleManager: Shutting down and abandoning module AIModule (358)
-[2017.11.29-02.59.52:671][517]LogModuleManager: Shutting down and abandoning module GameplayDebugger (357)
-[2017.11.29-02.59.52:671][517]LogModuleManager: Shutting down and abandoning module AITestSuite (355)
-[2017.11.29-02.59.52:671][517]LogModuleManager: Shutting down and abandoning module ProfilerService (352)
-[2017.11.29-02.59.52:679][517]LogModuleManager: Shutting down and abandoning module TaskGraph (350)
-[2017.11.29-02.59.52:679][517]LogModuleManager: Shutting down and abandoning module SteamVRController (348)
-[2017.11.29-02.59.52:679][517]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (346)
-[2017.11.29-02.59.52:679][517]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (344)
-[2017.11.29-02.59.52:679][517]LogModuleManager: Shutting down and abandoning module OculusInput (342)
-[2017.11.29-02.59.52:679][517]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (340)
-[2017.11.29-02.59.52:679][517]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (338)
-[2017.11.29-02.59.52:679][517]LogModuleManager: Shutting down and abandoning module CableComponent (336)
-[2017.11.29-02.59.52:679][517]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (334)
-[2017.11.29-02.59.52:679][517]LogModuleManager: Shutting down and abandoning module AndroidPermission (332)
-[2017.11.29-02.59.52:679][517]LogModuleManager: Shutting down and abandoning module ActorSequence (328)
-[2017.11.29-02.59.52:679][517]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (326)
-[2017.11.29-02.59.52:679][517]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (324)
-[2017.11.29-02.59.52:679][517]LogModuleManager: Shutting down and abandoning module MediaCompositing (322)
-[2017.11.29-02.59.52:679][517]LogModuleManager: Shutting down and abandoning module HTML5Networking (320)
-[2017.11.29-02.59.52:679][517]LogModuleManager: Shutting down and abandoning module AlembicImporter (318)
-[2017.11.29-02.59.52:679][517]LogModuleManager: Shutting down and abandoning module AlembicLibrary (317)
-[2017.11.29-02.59.52:679][517]LogModuleManager: Shutting down and abandoning module GeometryCache (316)
-[2017.11.29-02.59.52:679][517]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (315)
-[2017.11.29-02.59.52:679][517]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (310)
-[2017.11.29-02.59.52:679][517]LogModuleManager: Shutting down and abandoning module PluginBrowser (308)
-[2017.11.29-02.59.52:679][517]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (306)
-[2017.11.29-02.59.52:679][517]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (304)
-[2017.11.29-02.59.52:680][517]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (302)
-[2017.11.29-02.59.52:680][517]LogModuleManager: Shutting down and abandoning module UObjectPlugin (300)
-[2017.11.29-02.59.52:680][517]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (298)
-[2017.11.29-02.59.52:680][517]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (296)
-[2017.11.29-02.59.52:680][517]LogModuleManager: Shutting down and abandoning module GitSourceControl (294)
-[2017.11.29-02.59.52:680][517]LogModuleManager: Shutting down and abandoning module SourceControl (293)
-[2017.11.29-02.59.52:680][517]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (290)
-[2017.11.29-02.59.52:680][517]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (288)
-[2017.11.29-02.59.52:680][517]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (286)
-[2017.11.29-02.59.52:680][517]LogModuleManager: Shutting down and abandoning module Paper2DEditor (284)
-[2017.11.29-02.59.52:680][517]LogModuleManager: Shutting down and abandoning module MeshPaint (283)
-[2017.11.29-02.59.52:680][517]LogModuleManager: Shutting down and abandoning module LevelEditor (281)
-[2017.11.29-02.59.52:681][517]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (280)
-[2017.11.29-02.59.52:681][517]LogModuleManager: Shutting down and abandoning module MainFrame (278)
-[2017.11.29-02.59.52:681][517]LogModuleManager: Shutting down and abandoning module HotReload (277)
-[2017.11.29-02.59.52:681][517]LogDirectoryWatcher: A directory notification for 'C:/Users/jpyepez/Documents/Unreal Projects/UE4PG2/Binaries/Win64' was aborted.
-[2017.11.29-02.59.52:681][517]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (270)
-[2017.11.29-02.59.52:681][517]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (268)
-[2017.11.29-02.59.52:681][517]LogModuleManager: Shutting down and abandoning module PhysXVehicles (266)
-[2017.11.29-02.59.52:681][517]LogModuleManager: Shutting down and abandoning module OculusEditor (264)
-[2017.11.29-02.59.52:681][517]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (262)
-[2017.11.29-02.59.52:681][517]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (260)
-[2017.11.29-02.59.52:681][517]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (258)
-[2017.11.29-02.59.52:681][517]LogModuleManager: Shutting down and abandoning module UdpMessaging (256)
-[2017.11.29-02.59.52:782][517]LogModuleManager: Shutting down and abandoning module TcpMessaging (254)
-[2017.11.29-02.59.52:980][517]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (252)
-[2017.11.29-02.59.52:980][517]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (250)
-[2017.11.29-02.59.52:980][517]LogModuleManager: Shutting down and abandoning module FacialAnimation (248)
-[2017.11.29-02.59.52:980][517]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (246)
-[2017.11.29-02.59.52:980][517]LogModuleManager: Shutting down and abandoning module GraphEditor (245)
-[2017.11.29-02.59.52:980][517]LogModuleManager: Shutting down and abandoning module ContentBrowser (243)
-[2017.11.29-02.59.52:981][517]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (240)
-[2017.11.29-02.59.52:981][517]LogModuleManager: Shutting down and abandoning module Paper2D (238)
-[2017.11.29-02.59.52:981][517]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (236)
-[2017.11.29-02.59.52:981][517]LogModuleManager: Shutting down and abandoning module WmfMedia (234)
-[2017.11.29-02.59.52:981][517]LogModuleManager: Shutting down and abandoning module ImgMedia (232)
-[2017.11.29-02.59.52:981][517]LogModuleManager: Shutting down and abandoning module PacketHandler (230)
-[2017.11.29-02.59.52:981][517]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (228)
-[2017.11.29-02.59.52:981][517]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (226)
-[2017.11.29-02.59.52:981][517]LogModuleManager: Shutting down and abandoning module MediaAssets (224)
-[2017.11.29-02.59.52:981][517]LogModuleManager: Shutting down and abandoning module Media (223)
-[2017.11.29-02.59.52:987][517]LogModuleManager: Shutting down and abandoning module Overlay (220)
-[2017.11.29-02.59.52:987][517]LogModuleManager: Shutting down and abandoning module OverlayEditor (219)
-[2017.11.29-02.59.52:987][517]LogModuleManager: Shutting down and abandoning module VREditor (216)
-[2017.11.29-02.59.52:987][517]LogModuleManager: Shutting down and abandoning module StringTableEditor (214)
-[2017.11.29-02.59.52:987][517]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (212)
-[2017.11.29-02.59.52:987][517]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (210)
-[2017.11.29-02.59.52:987][517]LogModuleManager: Shutting down and abandoning module FunctionalTesting (208)
-[2017.11.29-02.59.52:987][517]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (206)
-[2017.11.29-02.59.52:987][517]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (205)
-[2017.11.29-02.59.52:987][517]LogModuleManager: Shutting down and abandoning module UMG (202)
-[2017.11.29-02.59.52:987][517]LogModuleManager: Shutting down and abandoning module UMGEditor (201)
-[2017.11.29-02.59.52:987][517]LogModuleManager: Shutting down and abandoning module Sequencer (200)
-[2017.11.29-02.59.52:987][517]LogModuleManager: Shutting down and abandoning module MessageLog (197)
-[2017.11.29-02.59.52:987][517]LogModuleManager: Shutting down and abandoning module SlateReflector (192)
-[2017.11.29-02.59.52:987][517]LogModuleManager: Shutting down and abandoning module Slate (190)
-[2017.11.29-02.59.52:987][517]LogModuleManager: Shutting down and abandoning module EditorStyle (188)
-[2017.11.29-02.59.52:989][517]LogModuleManager: Shutting down and abandoning module MRMesh (186)
-[2017.11.29-02.59.52:989][517]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (184)
-[2017.11.29-02.59.52:989][517]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (182)
-[2017.11.29-02.59.52:989][517]LogModuleManager: Shutting down and abandoning module XAudio2 (180)
-[2017.11.29-02.59.52:989][517]LogModuleManager: Shutting down and abandoning module Networking (178)
-[2017.11.29-02.59.52:989][517]LogModuleManager: Shutting down and abandoning module Core (174)
-[2017.11.29-02.59.52:989][517]LogModuleManager: Shutting down and abandoning module LevelSequence (170)
-[2017.11.29-02.59.52:989][517]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (168)
-[2017.11.29-02.59.52:990][517]LogModuleManager: Shutting down and abandoning module KismetCompiler (166)
-[2017.11.29-02.59.52:990][517]LogModuleManager: Shutting down and abandoning module MeshUtilities (164)
-[2017.11.29-02.59.52:990][517]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (163)
-[2017.11.29-02.59.52:990][517]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (162)
-[2017.11.29-02.59.52:990][517]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (161)
-[2017.11.29-02.59.52:990][517]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (159)
-[2017.11.29-02.59.52:990][517]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (157)
-[2017.11.29-02.59.52:990][517]LogModuleManager: Shutting down and abandoning module MaterialBaking (153)
-[2017.11.29-02.59.52:990][517]LogModuleManager: Shutting down and abandoning module DerivedDataCache (150)
-[2017.11.29-02.59.53:004][517]LogDerivedDataCache: Shutdown
-[2017.11.29-02.59.53:004][517]LogModuleManager: Shutting down and abandoning module TargetPlatform (148)
-[2017.11.29-02.59.53:004][517]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (147)
-[2017.11.29-02.59.53:004][517]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (145)
-[2017.11.29-02.59.53:004][517]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (143)
-[2017.11.29-02.59.53:004][517]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (141)
-[2017.11.29-02.59.53:004][517]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (139)
-[2017.11.29-02.59.53:004][517]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (137)
-[2017.11.29-02.59.53:004][517]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (135)
-[2017.11.29-02.59.53:004][517]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (133)
-[2017.11.29-02.59.53:004][517]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (131)
-[2017.11.29-02.59.53:004][517]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (129)
-[2017.11.29-02.59.53:004][517]LogModuleManager: Shutting down and abandoning module ImageWrapper (128)
-[2017.11.29-02.59.53:004][517]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (125)
-[2017.11.29-02.59.53:004][517]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (123)
-[2017.11.29-02.59.53:004][517]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (121)
-[2017.11.29-02.59.53:004][517]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (119)
-[2017.11.29-02.59.53:004][517]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (117)
-[2017.11.29-02.59.53:004][517]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (115)
-[2017.11.29-02.59.53:004][517]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (113)
-[2017.11.29-02.59.53:004][517]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (111)
-[2017.11.29-02.59.53:004][517]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (109)
-[2017.11.29-02.59.53:004][517]LogModuleManager: Shutting down and abandoning module Messaging (107)
-[2017.11.29-02.59.53:004][517]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (105)
-[2017.11.29-02.59.53:004][517]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (103)
-[2017.11.29-02.59.53:005][517]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (101)
-[2017.11.29-02.59.53:005][517]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (99)
-[2017.11.29-02.59.53:005][517]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (97)
-[2017.11.29-02.59.53:005][517]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (95)
-[2017.11.29-02.59.53:005][517]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (93)
-[2017.11.29-02.59.53:005][517]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (91)
-[2017.11.29-02.59.53:005][517]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (89)
-[2017.11.29-02.59.53:005][517]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (87)
-[2017.11.29-02.59.53:005][517]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (85)
-[2017.11.29-02.59.53:005][517]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (83)
-[2017.11.29-02.59.53:005][517]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (81)
-[2017.11.29-02.59.53:005][517]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (79)
-[2017.11.29-02.59.53:005][517]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (77)
-[2017.11.29-02.59.53:005][517]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (75)
-[2017.11.29-02.59.53:005][517]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (73)
-[2017.11.29-02.59.53:005][517]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (71)
-[2017.11.29-02.59.53:005][517]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (69)
-[2017.11.29-02.59.53:005][517]LogModuleManager: Shutting down and abandoning module InputCore (66)
-[2017.11.29-02.59.53:005][517]LogModuleManager: Shutting down and abandoning module Settings (64)
-[2017.11.29-02.59.53:005][517]LogModuleManager: Shutting down and abandoning module PhysXCooking (62)
-[2017.11.29-02.59.53:005][517]LogModuleManager: Shutting down and abandoning module SteamVR (60)
-[2017.11.29-02.59.53:005][517]LogModuleManager: Shutting down and abandoning module OculusHMD (58)
-[2017.11.29-02.59.53:005][517]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (56)
-[2017.11.29-02.59.53:005][517]LogModuleManager: Shutting down and abandoning module AppleARKit (54)
-[2017.11.29-02.59.53:005][517]LogModuleManager: Shutting down and abandoning module AugmentedReality (53)
-[2017.11.29-02.59.53:005][517]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (50)
-[2017.11.29-02.59.53:005][517]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (46)
-[2017.11.29-02.59.53:005][517]LogModuleManager: Shutting down and abandoning module XMPP (45)
-[2017.11.29-02.59.53:005][517]LogModuleManager: Shutting down and abandoning module HTTP (43)
-[2017.11.29-02.59.53:005][517]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2017.11.29-02.59.53:005][517]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B75A9463F-49BC-193B-BE53-AE9F59FB043B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.1-3754814%2B%2B%2BUE4%2BRelease-4.18&UserID=3b594833464ea2447db9ab8f54bfbe9b%7C231ec0329cfc4ae29322f5907af6e17d%7C187fd38b-10f4-4a5b-a426-bcf3c7b52353&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2017.11.29-02.59.53:005][517]LogHttp: Warning: 000001AE5ED3A380: request failed, libcurl error: 56 (Failure when receiving data from the peer)
-[2017.11.29-02.59.53:005][517]LogHttp: Warning: 000001AE5ED3A380: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
-[2017.11.29-02.59.53:005][517]LogHttp: Warning: 000001AE5ED3A380: libcurl info message cache 1 (  Trying 130.195.5.7...)
-[2017.11.29-02.59.53:005][517]LogHttp: Warning: 000001AE5ED3A380: libcurl info message cache 2 (Connected to www-cache.ecs.vuw.ac.nz (130.195.5.7) port 8080 (#7))
-[2017.11.29-02.59.53:005][517]LogHttp: Warning: 000001AE5ED3A380: libcurl info message cache 3 (Establish HTTP proxy tunnel to datarouter.ol.epicgames.com:443)
-[2017.11.29-02.59.53:005][517]LogHttp: Warning: 000001AE5ED3A380: libcurl info message cache 4 (Ignore 3325 bytes of response-body)
-[2017.11.29-02.59.53:005][517]LogHttp: Warning: 000001AE5ED3A380: libcurl info message cache 5 (Received HTTP code 407 from proxy after CONNECT)
-[2017.11.29-02.59.53:005][517]LogHttp: Warning: 000001AE5ED3A380: libcurl info message cache 6 (Closing connection 7)
-[2017.11.29-02.59.53:027][517]LogModuleManager: Shutting down and abandoning module SSL (42)
-[2017.11.29-02.59.53:029][517]LogModuleManager: Shutting down and abandoning module DesktopPlatform (38)
-[2017.11.29-02.59.53:029][517]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2017.11.29-02.59.53:029][517]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2017.11.29-02.59.53:029][517]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2017.11.29-02.59.53:029][517]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2017.11.29-02.59.53:030][517]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2017.11.29-02.59.53:030][517]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2017.11.29-02.59.53:030][517]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2017.11.29-02.59.53:030][517]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2017.11.29-02.59.53:030][517]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2017.11.29-02.59.53:030][517]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2017.11.29-02.59.53:030][517]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2017.11.29-02.59.53:030][517]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2017.11.29-02.59.53:030][517]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2017.11.29-02.59.53:030][517]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2017.11.29-02.59.53:030][517]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2017.11.29-02.59.53:030][517]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2017.11.29-02.59.53:030][517]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2017.11.29-02.59.53:030][517]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2017.11.29-02.59.53:034][517]LogExit: Exiting.
-[2017.11.29-02.59.53:041][517]Log file closed, 11/29/17 15:59:53
+[2017.12.05-03.15.04:741][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.05-03.15.04:741][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.12.05-03.15.04:753][  0]LogInit: Computer: TOKEYO
+[2017.12.05-03.15.04:753][  0]LogInit: User: jpyepez
+[2017.12.05-03.15.04:753][  0]LogInit: CPU Page size=4096, Cores=6
+[2017.12.05-03.15.04:753][  0]LogInit: High frequency timer resolution =3.410071 MHz
+[2017.12.05-03.15.04:753][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.12.05-03.15.04:753][  0]LogMemory: Platform Memory Stats for Windows
+[2017.12.05-03.15.04:753][  0]LogMemory: Process Physical Memory: 271.36 MB used, 271.36 MB peak
+[2017.12.05-03.15.04:753][  0]LogMemory: Process Virtual Memory: 268.93 MB used, 268.93 MB peak
+[2017.12.05-03.15.04:753][  0]LogMemory: Physical Memory: 2847.25 MB used,  5267.13 MB free, 8114.37 MB total
+[2017.12.05-03.15.04:753][  0]LogMemory: Virtual Memory: 647.27 MB used,  5267.13 MB free, 134217728.00 MB total
+[2017.12.05-03.15.04:873][  0]LogInit: Using OS detected language (en-US).
+[2017.12.05-03.15.04:873][  0]LogInit: Using OS detected locale (en-US).
+[2017.12.05-03.15.04:876][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.12.05-03.15.05:234][  0]LogInit: Setting process to per monitor DPI aware
+[2017.12.05-03.15.05:463][  0]LogD3D11RHI: D3D11 adapters:
+[2017.12.05-03.15.05:503][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.12.05-03.15.05:503][  0]LogD3D11RHI:       8085/0/4057 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.12.05-03.15.05:504][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.12.05-03.15.05:504][  0]LogD3D11RHI:       0/0/4057 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.12.05-03.15.05:504][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.12.05-03.15.05:509][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.12.05-03.15.05:509][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.12.05-03.15.05:509][  0]LogWindows: EnumDisplayDevices:
+[2017.12.05-03.15.05:509][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.12.05-03.15.05:510][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2017.12.05-03.15.05:510][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.12.05-03.15.05:510][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.12.05-03.15.05:510][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.12.05-03.15.05:510][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.12.05-03.15.05:510][  0]LogD3D11RHI:   Driver Version: 384.94 (internal:22.21.13.8494, unified:384.94)
+[2017.12.05-03.15.05:510][  0]LogD3D11RHI:      Driver Date: 7-18-2017
+[2017.12.05-03.15.05:510][  0]LogRHI: Texture pool is 5660 MB (70% of 8085 MB)
+[2017.12.05-03.15.05:540][  0]LogD3D11RHI: Async texture creation enabled
+[2017.12.05-03.15.05:551][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.12.05-03.15.05:595][  0]LogShaderCompilers: Guid format shader working directory is -17 characters bigger than the processId version (../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4PG2/Intermediate/Shaders/WorkingDirectory/13908/).
+[2017.12.05-03.15.05:595][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jpyepez/AppData/Local/Temp/UnrealShaderWorkingDir/7DBAE9E647883C6D122015A9673EBB7E/'.
+[2017.12.05-03.15.05:595][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.12.05-03.15.06:479][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.12.05-03.15.06:543][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.12.05-03.15.06:589][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.12.05-03.15.06:639][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.12.05-03.15.06:689][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.12.05-03.15.06:733][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.12.05-03.15.06:786][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.12.05-03.15.06:835][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.12.05-03.15.06:879][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.12.05-03.15.06:922][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.12.05-03.15.06:965][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.12.05-03.15.07:009][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.12.05-03.15.07:052][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.12.05-03.15.07:097][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.12.05-03.15.07:197][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.12.05-03.15.07:197][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.12.05-03.15.07:246][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.12.05-03.15.07:283][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.12.05-03.15.07:379][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.12.05-03.15.07:409][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.12.05-03.15.07:453][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.12.05-03.15.07:498][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.12.05-03.15.07:541][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.12.05-03.15.07:589][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.12.05-03.15.07:589][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.12.05-03.15.08:017][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.12.05-03.15.08:101][  0]LogDerivedDataCache: Loaded boot cache 0.08s 78MB C:/Users/jpyepez/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2017.12.05-03.15.08:102][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/jpyepez/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2017.12.05-03.15.08:102][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4PG2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.12.05-03.15.08:102][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.12.05-03.15.08:102][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4PG2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.12.05-03.15.08:102][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.12.05-03.15.08:117][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.12.05-03.15.08:129][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jpyepez/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.12.05-03.15.08:139][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.12.05-03.15.08:139][  0]LogSlate: Using Freetype 2.6.0
+[2017.12.05-03.15.08:139][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.05-03.15.08:139][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.05-03.15.08:488][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.05-03.15.08:834][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.12.05-03.15.08:876][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.12.05-03.15.08:876][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.12.05-03.15.08:876][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.12.05-03.15.08:876][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.12.05-03.15.08:876][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.12.05-03.15.08:907][  0]LogNetVersion: UE4PG2 , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4227711276)
+[2017.12.05-03.15.09:055][  0]LogAssetRegistry: FAssetRegistry took 0.0279 seconds to start up
+[2017.12.05-03.15.09:534][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.063759 seconds
+[2017.12.05-03.15.09:538][  0]LogUObjectArray: 35900 objects as part of root set at end of initial load.
+[2017.12.05-03.15.09:538][  0]LogUObjectAllocator: 7372024 out of 0 bytes used by permanent object pool.
+[2017.12.05-03.15.09:538][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.12.05-03.15.09:584][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.12.05-03.15.12:145][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.12.05-03.15.12:186][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.12.05-03.15.12:904][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.12.05-03.15.13:315][  0]SourceControl: Source control is disabled
+[2017.12.05-03.15.13:315][  0]SourceControl: Source control is disabled
+[2017.12.05-03.15.13:364][  0]SourceControl: Source control is disabled
+[2017.12.05-03.15.13:410][  0]SourceControl: Source control is disabled
+[2017.12.05-03.15.14:213][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.12.05-03.15.14:462][  0]LogOcInput: OculusInput pre-init called
+[2017.12.05-03.15.14:732][  0]LogEngine: Initializing Engine...
+[2017.12.05-03.15.14:735][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.12.05-03.15.14:980][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.12.05-03.15.14:981][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.12.05-03.15.15:089][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.12.05-03.15.15:093][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.05-03.15.15:108][  0]LogInit: FAudioDevice initialized.
+[2017.12.05-03.15.15:183][  0]LogDerivedDataCache: Saved boot cache 0.07s 78MB C:/Users/jpyepez/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2017.12.05-03.15.15:200][  0]LogInit: Texture streaming: Enabled
+[2017.12.05-03.15.15:289][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.12.05-03.15.15:414][  0]LogInit: Transaction tracking system initialized
+[2017.12.05-03.15.15:693][  0]BlueprintLog: New page: Editor Load
+[2017.12.05-03.15.16:555][  0]LocalizationService: Localization service is disabled
+[2017.12.05-03.15.17:263][  0]LogConsoleResponse: Display: 
+[2017.12.05-03.15.17:425][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.12.05-03.15.17:425][  0]LogCook: Display: Mobile HDR setting 1
+[2017.12.05-03.15.17:425][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.12.05-03.15.18:186][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jpyepez/Documents/Unreal Projects/UE4PG2/Content/' took 0.02s
+[2017.12.05-03.15.18:528][  0]SourceControl: Source control is disabled
+[2017.12.05-03.15.18:528][  0]Cmd: MAP LOAD FILE="../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4PG2/Content/MyMaps/StartMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.05-03.15.18:528][  0]LightingResults: New page: Lighting Build
+[2017.12.05-03.15.18:572][  0]MapCheck: New page: Map Check
+[2017.12.05-03.15.18:572][  0]LightingResults: New page: Lighting Build
+[2017.12.05-03.15.18:750][  0]LogAIModule: Creating AISystem for world StartMap
+[2017.12.05-03.15.18:754][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.05-03.15.18:772][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.05-03.15.18:821][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 48.82ms to complete.
+[2017.12.05-03.15.18:821][  0]LogFileHelpers: Loading map 'StartMap' took 0.294
+[2017.12.05-03.15.19:021][  0]LogCollectionManager: Loaded 0 collections in 0.001755 seconds
+[2017.12.05-03.15.19:094][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jpyepez/Documents/Unreal Projects/UE4PG2/Saved/Collections/' took 0.01s
+[2017.12.05-03.15.19:094][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jpyepez/Documents/Unreal Projects/UE4PG2/Content/Developers/jpyepez/Collections/' took 0.01s
+[2017.12.05-03.15.19:094][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jpyepez/Documents/Unreal Projects/UE4PG2/Content/Collections/' took 0.01s
+[2017.12.05-03.15.19:094][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.12.05-03.15.19:102][  0]LogContentBrowser: Native class hierarchy populated in 0.0079 seconds. Added 2366 classes and 523 folders.
+[2017.12.05-03.15.19:158][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.12.05-03.15.19:420][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.12.05-03.15.19:448][  0]LogSlate: Took 0.000190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.05-03.15.19:452][  0]LogSlate: Took 0.000139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.12.05-03.15.19:459][  0]LogSlate: Took 0.004109 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.12.05-03.15.19:562][  0]LogRenderer: Reallocating scene render targets to support 1248x604 Format 10 NumSamples 1 (Frame:1).
+[2017.12.05-03.15.19:608][  0]LogSlate: Took 0.004740 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.05-03.15.19:740][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.12.05-03.15.19:740][  0]LogLoad: (Engine Initialization) Total time: 17.60 seconds
+[2017.12.05-03.15.19:740][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.12.05-03.15.19:740][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.12.05-03.15.19:750][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.12.05-03.15.19:765][  0]LogAssetRegistry: Asset discovery search completed in 10.7317 seconds
+[2017.12.05-03.15.19:767][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.12.05-03.15.19:767][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000047 seconds (updated 0 objects)
+[2017.12.05-03.15.19:769][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.12.05-03.15.32:402][446]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.05-03.15.32:448][446]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.05-03.15.32:448][446]PIE: New page: PIE session: StartMap (Dec 6, 2017, 5:15:32 AM)
+[2017.12.05-03.15.32:449][446]LogPlayLevel: Creating play world package: /Game/MyMaps/UEDPIE_0_StartMap
+[2017.12.05-03.15.32:452][446]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003302s)
+[2017.12.05-03.15.32:452][446]LogAIModule: Creating AISystem for world StartMap
+[2017.12.05-03.15.32:453][446]LogPlayLevel: PIE: World Init took: (0.000670s)
+[2017.12.05-03.15.32:453][446]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyMaps/StartMap.StartMap to /Game/MyMaps/UEDPIE_0_StartMap.StartMap (0.004222s)
+[2017.12.05-03.15.32:466][446]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.05-03.15.32:479][446]LogInit: FAudioDevice initialized.
+[2017.12.05-03.15.32:523][446]LogUObjectGlobals: Warning: Failed to find object 'Class /Script/UE4PG2.UE4PG2GameMode'
+[2017.12.05-03.15.32:523][446]LogLoad: Game class is 'GameModeBase'
+[2017.12.05-03.15.32:525][446]LogWorld: Bringing World /Game/MyMaps/UEDPIE_0_StartMap.StartMap up for play (max tick rate 0) at 2017.12.05-16.15.32
+[2017.12.05-03.15.32:525][446]LogWorld: Bringing up level for play took: 0.000655
+[2017.12.05-03.15.32:562][446]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.12.05-03.15.32:563][446]PIE: Play in editor start time for /Game/MyMaps/UEDPIE_0_StartMap 0.259
+[2017.12.05-03.16.19:229][604]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.05-03.16.19:241][604]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.05-03.16.19:241][604]PIE: New page: PIE session: StartMap (Dec 6, 2017, 5:16:19 AM)
+[2017.12.05-03.16.19:241][604]LogPlayLevel: Creating play world package: /Game/MyMaps/UEDPIE_0_StartMap
+[2017.12.05-03.16.19:245][604]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004052s)
+[2017.12.05-03.16.19:246][604]LogAIModule: Creating AISystem for world StartMap
+[2017.12.05-03.16.19:247][604]LogPlayLevel: PIE: World Init took: (0.001251s)
+[2017.12.05-03.16.19:247][604]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyMaps/StartMap.StartMap to /Game/MyMaps/UEDPIE_0_StartMap.StartMap (0.005744s)
+[2017.12.05-03.16.19:261][604]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.05-03.16.19:274][604]LogInit: FAudioDevice initialized.
+[2017.12.05-03.16.19:306][604]LogLoad: Game class is 'GameModeBase'
+[2017.12.05-03.16.19:307][604]LogWorld: Bringing World /Game/MyMaps/UEDPIE_0_StartMap.StartMap up for play (max tick rate 0) at 2017.12.05-16.16.19
+[2017.12.05-03.16.19:308][604]LogWorld: Bringing up level for play took: 0.000642
+[2017.12.05-03.16.19:309][604]PIE: Play in editor start time for /Game/MyMaps/UEDPIE_0_StartMap 1.005
+[2017.12.05-03.16.33:001][231]LogEditor: Attempting to add actor of class 'MyPawnBall' to level at -190.00,-290.00,20.00
+[2017.12.05-03.16.49:454][ 83]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.12.05-03.16.49:505][ 84]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.UE4PG2
+[2017.12.05-03.16.49:505][ 84]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2017.12.05-03.16.49:505][ 84]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.18
+[2017.12.05-03.16.49:505][ 84]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2017.12.05-03.16.49:505][ 84]LogTemp: BranchPath = TOKEYO/C/Program Files/Epic Games/UE_4.18/Engine/Binaries --- GameBranchPath = TOKEYO/C/Program Files/Epic Games/UE_4.18/Engine/Binaries
+[2017.12.05-03.16.49:505][ 84]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\jpyepez\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.12.05-03.19.45:308][114]LogEditor: Attempting to add actor of class 'MyPawnBall' to level at -200.00,-280.00,20.00
+[2017.12.05-03.19.45:771][164]LogEditor: Attempting to add actor of class 'MyPawnBall' to level at -180.00,-30.00,20.00
+[2017.12.05-03.20.07:059][681]LogSlate: Took 0.007351 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.12.05-03.20.09:064][911]LogSlate: Took 0.000219 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.05-03.20.26:537][955]LogActorFactory: Actor Factory created Shape_Sphere
+[2017.12.05-03.20.55:646][409]LogSlate: Took 0.000145 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.05-03.20.55:654][409]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMaps/StartMap" FILE="../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4PG2/Content/MyMaps/StartMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.12.05-03.20.55:704][409]LogSavePackage: Save=28.73ms
+[2017.12.05-03.20.55:704][409]LogSavePackage: Moving '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4PG2/Saved/StartMap7878357545307701C2288B972E582EF1.tmp' to '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4PG2/Content/MyMaps/StartMap.umap'
+[2017.12.05-03.20.55:707][409]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4PG2/Content/MyMaps/StartMap.umap
+[2017.12.05-03.20.55:736][409]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMaps/StartMap_BuiltData" FILE="../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4PG2/Content/MyMaps/StartMap_BuiltData.uasset" SILENT=true
+[2017.12.05-03.20.55:756][409]LogSavePackage: Save=13.13ms
+[2017.12.05-03.20.55:757][409]LogSavePackage: Moving '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4PG2/Saved/StartMap_BuiltData0DC795014284E813342FD39D00E00958.tmp' to '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4PG2/Content/MyMaps/StartMap_BuiltData.uasset'
+[2017.12.05-03.20.55:758][409]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4PG2/Content/MyMaps/StartMap_BuiltData.uasset
+[2017.12.05-03.20.57:180][577]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.05-03.20.57:194][577]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.05-03.20.57:194][577]PIE: New page: PIE session: StartMap (Dec 6, 2017, 5:20:57 AM)
+[2017.12.05-03.20.57:194][577]LogPlayLevel: Creating play world package: /Game/MyMaps/UEDPIE_0_StartMap
+[2017.12.05-03.20.57:197][577]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002800s)
+[2017.12.05-03.20.57:198][577]LogAIModule: Creating AISystem for world StartMap
+[2017.12.05-03.20.57:198][577]LogPlayLevel: PIE: World Init took: (0.000696s)
+[2017.12.05-03.20.57:198][577]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyMaps/StartMap.StartMap to /Game/MyMaps/UEDPIE_0_StartMap.StartMap (0.003772s)
+[2017.12.05-03.20.57:243][577]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.05-03.20.57:256][577]LogInit: FAudioDevice initialized.
+[2017.12.05-03.20.57:291][577]LogLoad: Game class is 'GameModeBase'
+[2017.12.05-03.20.57:292][577]LogWorld: Bringing World /Game/MyMaps/UEDPIE_0_StartMap.StartMap up for play (max tick rate 0) at 2017.12.05-16.20.57
+[2017.12.05-03.20.57:292][577]LogWorld: Bringing up level for play took: 0.001105
+[2017.12.05-03.20.57:293][577]PIE: Play in editor start time for /Game/MyMaps/UEDPIE_0_StartMap 0.987
+[2017.12.05-03.32.35:314][712]LogEditorViewport: Clicking on Actor (LMB): MyPawnBall (MyPawnBall2)
+[2017.12.05-03.34.11:644][984]Cmd: TRANSACTION UNDO
+[2017.12.05-03.34.11:644][984]LogEditorTransaction: Undo Move Actors
+[2017.12.05-03.34.37:377][212]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MyMaps/StartMap' took 0.014
+[2017.12.05-03.38.33:454][853]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2017.12.05-03.38.33:459][853]Candidate modules for hot reload:
+[2017.12.05-03.38.33:459][853]  UE4PG2
+[2017.12.05-03.38.33:460][853]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe UE4PG2 -ModuleWithSuffix UE4PG2 6417 Win64 Development -editorrecompile -canskiplink "C:/Users/jpyepez/Documents/Unreal Projects/UE4PG2/UE4PG2.uproject" ]
+[2017.12.05-03.38.33:461][853]Warning: Starting HotReload took  0.0s.
+[2017.12.05-03.39.26:323][650]CompilerResultsLog: New page: Compilation - Dec 6, 2017, 5:39:26 AM
+[2017.12.05-03.39.26:323][650]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2017.12.05-03.39.26:323][650]CompilerResultsLog: Creating makefile for hot reloading UE4PG2 (ini files are newer than UBTMakefile)
+[2017.12.05-03.39.26:323][650]CompilerResultsLog: Compiling game modules for hot reload
+[2017.12.05-03.39.26:323][650]CompilerResultsLog: Parsing headers for UE4PG2Editor
+[2017.12.05-03.39.26:323][650]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\jpyepez\Documents\Unreal Projects\UE4PG2\UE4PG2.uproject" "C:\Users\jpyepez\Documents\Unreal Projects\UE4PG2\Intermediate\Build\Win64\UE4PG2Editor\Development\UE4PG2Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.12.05-03.39.26:323][650]CompilerResultsLog: Reflection code generated for UE4PG2Editor in 8.8361635 seconds
+[2017.12.05-03.39.26:323][650]CompilerResultsLog: Performing 4 actions (9 in parallel)
+[2017.12.05-03.39.26:323][650]CompilerResultsLog: MyPawnBall.gen.cpp
+[2017.12.05-03.39.26:323][650]CompilerResultsLog: MyPawnBall.cpp
+[2017.12.05-03.39.26:323][650]CompilerResultsLog: [3/4] Link UE4Editor-UE4PG2-6417.dll
+[2017.12.05-03.39.26:323][650]CompilerResultsLog: [4/4] Link UE4Editor-UE4PG2-6417.lib
+[2017.12.05-03.39.26:323][650]CompilerResultsLog:    Creating library C:\Users\jpyepez\Documents\Unreal Projects\UE4PG2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4PG2-6417.lib and object C:\Users\jpyepez\Documents\Unreal Projects\UE4PG2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4PG2-6417.exp
+[2017.12.05-03.39.26:324][650]CompilerResultsLog:    Creating library C:\Users\jpyepez\Documents\Unreal Projects\UE4PG2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4PG2-6417.suppressed.lib and object C:\Users\jpyepez\Documents\Unreal Projects\UE4PG2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4PG2-6417.suppressed.exp
+[2017.12.05-03.39.26:324][650]CompilerResultsLog: Total build time: 52.38 seconds (Local executor: 6.72 seconds)
+[2017.12.05-03.39.26:324][650]LogMainFrame: MainFrame: Module compiling took 52.869 seconds
+[2017.12.05-03.39.26:384][650]LogClass: Could not find existing class MyPawnBall in package /Script/UE4PG2 for HotReload, assuming new class
+[2017.12.05-03.39.26:388][650]LogHotReload: Re-instancing MyPawnBall after hot-reload.
+[2017.12.05-03.39.26:570][650]LogContentBrowser: Native class hierarchy updated for 'UE4PG2' in 0.0007 seconds. Added 2 classes and 2 folders.
+[2017.12.05-03.39.26:572][650]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.12.05-03.39.26:667][650]LogContentBrowser: Native class hierarchy populated in 0.0106 seconds. Added 2367 classes and 525 folders.
+[2017.12.05-03.39.26:672][650]Display: HotReload took 53.2s.
+[2017.12.05-03.39.30:409][855]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.05-03.39.30:420][855]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.05-03.39.30:420][855]PIE: New page: PIE session: StartMap (Dec 6, 2017, 5:39:30 AM)
+[2017.12.05-03.39.30:420][855]LogPlayLevel: Creating play world package: /Game/MyMaps/UEDPIE_0_StartMap
+[2017.12.05-03.39.30:423][855]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003215s)
+[2017.12.05-03.39.30:424][855]LogAIModule: Creating AISystem for world StartMap
+[2017.12.05-03.39.30:424][855]LogPlayLevel: PIE: World Init took: (0.000770s)
+[2017.12.05-03.39.30:424][855]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyMaps/StartMap.StartMap to /Game/MyMaps/UEDPIE_0_StartMap.StartMap (0.004273s)
+[2017.12.05-03.39.30:463][855]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.05-03.39.30:477][855]LogInit: FAudioDevice initialized.
+[2017.12.05-03.39.30:511][855]LogLoad: Game class is 'GameModeBase'
+[2017.12.05-03.39.30:512][855]LogWorld: Bringing World /Game/MyMaps/UEDPIE_0_StartMap.StartMap up for play (max tick rate 0) at 2017.12.05-16.39.30
+[2017.12.05-03.39.30:512][855]LogWorld: Bringing up level for play took: 0.000696
+[2017.12.05-03.39.30:513][855]PIE: Play in editor start time for /Game/MyMaps/UEDPIE_0_StartMap 0.198
+[2017.12.05-03.40.12:569][298]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2017.12.05-03.40.12:573][298]Candidate modules for hot reload:
+[2017.12.05-03.40.12:573][298]  UE4PG2
+[2017.12.05-03.40.12:574][298]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe UE4PG2 -ModuleWithSuffix UE4PG2 9698 Win64 Development -editorrecompile -canskiplink "C:/Users/jpyepez/Documents/Unreal Projects/UE4PG2/UE4PG2.uproject" ]
+[2017.12.05-03.40.12:575][298]Warning: Starting HotReload took  0.0s.
+[2017.12.05-03.40.13:689][432]LogEditorViewport: Clicking on Actor (LMB): MyPawnBall (MyPawnBall2)
+[2017.12.05-03.40.23:612][595]CompilerResultsLog: New page: Compilation - Dec 6, 2017, 5:40:23 AM
+[2017.12.05-03.40.23:612][595]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2017.12.05-03.40.23:612][595]CompilerResultsLog: Compiling game modules for hot reload
+[2017.12.05-03.40.23:612][595]CompilerResultsLog: Parsing headers for UE4PG2Editor
+[2017.12.05-03.40.23:612][595]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\jpyepez\Documents\Unreal Projects\UE4PG2\UE4PG2.uproject" "C:\Users\jpyepez\Documents\Unreal Projects\UE4PG2\Intermediate\Build\Win64\UE4PG2Editor\Development\UE4PG2Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.12.05-03.40.23:613][595]CompilerResultsLog: Reflection code generated for UE4PG2Editor in 8.6025041 seconds
+[2017.12.05-03.40.23:613][595]CompilerResultsLog: Performing 4 actions (9 in parallel)
+[2017.12.05-03.40.23:613][595]CompilerResultsLog: MyPawnBall.cpp
+[2017.12.05-03.40.23:613][595]CompilerResultsLog: MyPawnBall.gen.cpp
+[2017.12.05-03.40.23:613][595]CompilerResultsLog: [3/4] Link UE4Editor-UE4PG2-9698.dll
+[2017.12.05-03.40.23:613][595]CompilerResultsLog: [4/4] Link UE4Editor-UE4PG2-9698.lib
+[2017.12.05-03.40.23:613][595]CompilerResultsLog:    Creating library C:\Users\jpyepez\Documents\Unreal Projects\UE4PG2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4PG2-9698.lib and object C:\Users\jpyepez\Documents\Unreal Projects\UE4PG2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4PG2-9698.exp
+[2017.12.05-03.40.23:613][595]CompilerResultsLog:    Creating library C:\Users\jpyepez\Documents\Unreal Projects\UE4PG2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4PG2-9698.suppressed.lib and object C:\Users\jpyepez\Documents\Unreal Projects\UE4PG2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4PG2-9698.suppressed.exp
+[2017.12.05-03.40.23:613][595]CompilerResultsLog: Total build time: 10.86 seconds (Local executor: 1.33 seconds)
+[2017.12.05-03.40.23:613][595]LogMainFrame: MainFrame: Module compiling took 11.044 seconds
+[2017.12.05-03.40.23:677][595]LogContentBrowser: Native class hierarchy updated for 'UE4PG2' in 0.0006 seconds. Added 2 classes and 2 folders.
+[2017.12.05-03.40.23:678][595]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.12.05-03.40.23:713][595]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 2367 classes and 525 folders.
+[2017.12.05-03.40.23:715][595]Display: HotReload took 11.1s.
+[2017.12.05-03.40.45:355][144]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMaps/StartMap" FILE="../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4PG2/Content/MyMaps/StartMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.12.05-03.40.45:406][144]LogSavePackage: Save=28.35ms
+[2017.12.05-03.40.45:406][144]LogSavePackage: Moving '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4PG2/Saved/StartMapB120AC8D42E2C45E84420987632E13A8.tmp' to '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4PG2/Content/MyMaps/StartMap.umap'
+[2017.12.05-03.40.45:409][144]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4PG2/Content/MyMaps/StartMap.umap
+[2017.12.05-03.40.45:427][144]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMaps/StartMap_BuiltData" FILE="../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4PG2/Content/MyMaps/StartMap_BuiltData.uasset" SILENT=true
+[2017.12.05-03.40.45:445][144]LogSavePackage: Save=12.25ms
+[2017.12.05-03.40.45:445][144]LogSavePackage: Moving '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4PG2/Saved/StartMap_BuiltDataC86D88814E6583320D46E09BCB0D1FF9.tmp' to '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4PG2/Content/MyMaps/StartMap_BuiltData.uasset'
+[2017.12.05-03.40.45:447][144]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4PG2/Content/MyMaps/StartMap_BuiltData.uasset
+[2017.12.05-03.40.45:921][200]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.05-03.40.45:932][200]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.05-03.40.45:932][200]PIE: New page: PIE session: StartMap (Dec 6, 2017, 5:40:45 AM)
+[2017.12.05-03.40.45:932][200]LogPlayLevel: Creating play world package: /Game/MyMaps/UEDPIE_0_StartMap
+[2017.12.05-03.40.45:935][200]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002958s)
+[2017.12.05-03.40.45:935][200]LogAIModule: Creating AISystem for world StartMap
+[2017.12.05-03.40.45:935][200]LogPlayLevel: PIE: World Init took: (0.000572s)
+[2017.12.05-03.40.45:936][200]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyMaps/StartMap.StartMap to /Game/MyMaps/UEDPIE_0_StartMap.StartMap (0.003766s)
+[2017.12.05-03.40.45:978][200]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.05-03.40.45:992][200]LogInit: FAudioDevice initialized.
+[2017.12.05-03.40.46:025][200]LogLoad: Game class is 'GameModeBase'
+[2017.12.05-03.40.46:026][200]LogWorld: Bringing World /Game/MyMaps/UEDPIE_0_StartMap.StartMap up for play (max tick rate 0) at 2017.12.05-16.40.46
+[2017.12.05-03.40.46:026][200]LogWorld: Bringing up level for play took: 0.000667
+[2017.12.05-03.40.46:027][200]PIE: Play in editor start time for /Game/MyMaps/UEDPIE_0_StartMap -0.289
+[2017.12.05-03.40.53:956][140]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.05-03.40.53:973][140]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.05-03.40.53:974][140]PIE: New page: PIE session: StartMap (Dec 6, 2017, 5:40:53 AM)
+[2017.12.05-03.40.53:974][140]LogPlayLevel: Creating play world package: /Game/MyMaps/UEDPIE_0_StartMap
+[2017.12.05-03.40.53:977][140]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003009s)
+[2017.12.05-03.40.53:977][140]LogAIModule: Creating AISystem for world StartMap
+[2017.12.05-03.40.53:978][140]LogPlayLevel: PIE: World Init took: (0.000952s)
+[2017.12.05-03.40.53:978][140]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyMaps/StartMap.StartMap to /Game/MyMaps/UEDPIE_0_StartMap.StartMap (0.004314s)
+[2017.12.05-03.40.53:992][140]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.05-03.40.54:012][140]LogInit: FAudioDevice initialized.
+[2017.12.05-03.40.54:046][140]LogLoad: Game class is 'GameModeBase'
+[2017.12.05-03.40.54:047][140]LogWorld: Bringing World /Game/MyMaps/UEDPIE_0_StartMap.StartMap up for play (max tick rate 0) at 2017.12.05-16.40.54
+[2017.12.05-03.40.54:047][140]LogWorld: Bringing up level for play took: 0.000701
+[2017.12.05-03.40.54:048][140]PIE: Play in editor start time for /Game/MyMaps/UEDPIE_0_StartMap -0.268
+[2017.12.05-03.40.57:153][502]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.12.05-03.40.57:540][541]LogEditorViewport: Clicking on Actor (LMB): MyPawnBall (MyPawnBall2)
+[2017.12.05-03.41.06:621][610]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMaps/StartMap" FILE="../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4PG2/Content/MyMaps/StartMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.12.05-03.41.06:670][610]LogSavePackage: Save=32.08ms
+[2017.12.05-03.41.06:670][610]LogSavePackage: Moving '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4PG2/Saved/StartMapF587F91B410533F2BFB143A8332A40AE.tmp' to '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4PG2/Content/MyMaps/StartMap.umap'
+[2017.12.05-03.41.06:672][610]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4PG2/Content/MyMaps/StartMap.umap
+[2017.12.05-03.41.06:688][610]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMaps/StartMap_BuiltData" FILE="../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4PG2/Content/MyMaps/StartMap_BuiltData.uasset" SILENT=true
+[2017.12.05-03.41.06:702][610]LogSavePackage: Save=11.53ms
+[2017.12.05-03.41.06:703][610]LogSavePackage: Moving '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4PG2/Saved/StartMap_BuiltData719F3B2A466EB307D27E55BB97DFC4F6.tmp' to '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4PG2/Content/MyMaps/StartMap_BuiltData.uasset'
+[2017.12.05-03.41.06:704][610]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4PG2/Content/MyMaps/StartMap_BuiltData.uasset
+[2017.12.05-03.41.07:421][694]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.05-03.41.07:431][694]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.05-03.41.07:432][694]PIE: New page: PIE session: StartMap (Dec 6, 2017, 5:41:07 AM)
+[2017.12.05-03.41.07:432][694]LogPlayLevel: Creating play world package: /Game/MyMaps/UEDPIE_0_StartMap
+[2017.12.05-03.41.07:434][694]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002814s)
+[2017.12.05-03.41.07:435][694]LogAIModule: Creating AISystem for world StartMap
+[2017.12.05-03.41.07:435][694]LogPlayLevel: PIE: World Init took: (0.000716s)
+[2017.12.05-03.41.07:435][694]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyMaps/StartMap.StartMap to /Game/MyMaps/UEDPIE_0_StartMap.StartMap (0.003795s)
+[2017.12.05-03.41.07:475][694]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.05-03.41.07:487][694]LogInit: FAudioDevice initialized.
+[2017.12.05-03.41.07:515][694]LogLoad: Game class is 'GameModeBase'
+[2017.12.05-03.41.07:516][694]LogWorld: Bringing World /Game/MyMaps/UEDPIE_0_StartMap.StartMap up for play (max tick rate 0) at 2017.12.05-16.41.07
+[2017.12.05-03.41.07:517][694]LogWorld: Bringing up level for play took: 0.000707
+[2017.12.05-03.41.07:517][694]PIE: Play in editor start time for /Game/MyMaps/UEDPIE_0_StartMap -0.798
+[2017.12.05-03.41.15:643][658]LogEditorViewport: Clicking on Actor (LMB): MyPawnBall (MyPawnBall2)
+[2017.12.05-03.43.34:068][952]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.05-03.43.34:078][952]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.05-03.43.34:078][952]PIE: New page: PIE session: StartMap (Dec 6, 2017, 5:43:34 AM)
+[2017.12.05-03.43.34:079][952]LogPlayLevel: Creating play world package: /Game/MyMaps/UEDPIE_0_StartMap
+[2017.12.05-03.43.34:082][952]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003644s)
+[2017.12.05-03.43.34:083][952]LogAIModule: Creating AISystem for world StartMap
+[2017.12.05-03.43.34:083][952]LogPlayLevel: PIE: World Init took: (0.000763s)
+[2017.12.05-03.43.34:083][952]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyMaps/StartMap.StartMap to /Game/MyMaps/UEDPIE_0_StartMap.StartMap (0.004715s)
+[2017.12.05-03.43.34:127][952]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.05-03.43.34:139][952]LogInit: FAudioDevice initialized.
+[2017.12.05-03.43.34:173][952]LogLoad: Game class is 'GameModeBase'
+[2017.12.05-03.43.34:176][952]LogVehicles: Warning: Cannot create vehicle for /Game/MyMaps/UEDPIE_0_StartMap.StartMap:PersistentLevel.MyPawnBall_2.SimpleWheeledVehicleMovement. UpdatedComponent is not a PrimitiveComponent.
+[2017.12.05-03.43.34:177][952]LogWorld: Bringing World /Game/MyMaps/UEDPIE_0_StartMap.StartMap up for play (max tick rate 0) at 2017.12.05-16.43.34
+[2017.12.05-03.43.34:177][952]LogWorld: Bringing up level for play took: 0.003342
+[2017.12.05-03.43.34:178][952]PIE: Play in editor start time for /Game/MyMaps/UEDPIE_0_StartMap -0.138
+[2017.12.05-03.43.38:038][404]LogEditorViewport: Clicking on Actor (LMB): MyPawnBall (MyPawnBall2)
+[2017.12.05-03.43.53:796][258]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.12.05-03.46.28:675][594]LogEditorViewport: Clicking on Actor (LMB): MyPawnBall (MyPawnBall2)
+[2017.12.05-03.46.37:123][593]Cmd: TRANSACTION UNDO
+[2017.12.05-03.46.37:123][593]LogEditorTransaction: Undo Move Actors
+[2017.12.05-03.47.27:895][ 58]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2017.12.05-03.47.27:899][ 58]Candidate modules for hot reload:
+[2017.12.05-03.47.27:900][ 58]  UE4PG2
+[2017.12.05-03.47.27:900][ 58]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe UE4PG2 -ModuleWithSuffix UE4PG2 1276 Win64 Development -editorrecompile -canskiplink "C:/Users/jpyepez/Documents/Unreal Projects/UE4PG2/UE4PG2.uproject" ]
+[2017.12.05-03.47.27:901][ 58]Warning: Starting HotReload took  0.0s.
+[2017.12.05-03.47.30:255][325]CompilerResultsLog: New page: Compilation - Dec 6, 2017, 5:47:30 AM
+[2017.12.05-03.47.30:255][325]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2017.12.05-03.47.30:255][325]CompilerResultsLog: Compiling game modules for hot reload
+[2017.12.05-03.47.30:255][325]CompilerResultsLog: Performing 3 actions (9 in parallel)
+[2017.12.05-03.47.30:255][325]CompilerResultsLog: MyPawnBall.cpp
+[2017.12.05-03.47.30:255][325]CompilerResultsLog: [2/3] Link UE4Editor-UE4PG2-1276.dll
+[2017.12.05-03.47.30:255][325]CompilerResultsLog: [3/3] Link UE4Editor-UE4PG2-1276.lib
+[2017.12.05-03.47.30:255][325]CompilerResultsLog:    Creating library C:\Users\jpyepez\Documents\Unreal Projects\UE4PG2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4PG2-1276.lib and object C:\Users\jpyepez\Documents\Unreal Projects\UE4PG2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4PG2-1276.exp
+[2017.12.05-03.47.30:255][325]CompilerResultsLog:    Creating library C:\Users\jpyepez\Documents\Unreal Projects\UE4PG2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4PG2-1276.suppressed.lib and object C:\Users\jpyepez\Documents\Unreal Projects\UE4PG2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4PG2-1276.suppressed.exp
+[2017.12.05-03.47.30:255][325]CompilerResultsLog: Total build time: 2.17 seconds (Local executor: 1.33 seconds)
+[2017.12.05-03.47.30:255][325]LogMainFrame: MainFrame: Module compiling took 2.361 seconds
+[2017.12.05-03.47.30:335][325]LogContentBrowser: Native class hierarchy updated for 'UE4PG2' in 0.0006 seconds. Added 2 classes and 2 folders.
+[2017.12.05-03.47.30:335][325]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.12.05-03.47.30:374][325]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 2367 classes and 525 folders.
+[2017.12.05-03.47.30:377][325]Display: HotReload took  2.5s.
+[2017.12.05-03.47.32:413][568]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.05-03.47.32:429][568]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.05-03.47.32:429][568]PIE: New page: PIE session: StartMap (Dec 6, 2017, 5:47:32 AM)
+[2017.12.05-03.47.32:429][568]LogPlayLevel: Creating play world package: /Game/MyMaps/UEDPIE_0_StartMap
+[2017.12.05-03.47.32:433][568]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003644s)
+[2017.12.05-03.47.32:434][568]LogAIModule: Creating AISystem for world StartMap
+[2017.12.05-03.47.32:434][568]LogPlayLevel: PIE: World Init took: (0.000753s)
+[2017.12.05-03.47.32:434][568]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyMaps/StartMap.StartMap to /Game/MyMaps/UEDPIE_0_StartMap.StartMap (0.004673s)
+[2017.12.05-03.47.32:475][568]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.05-03.47.32:492][568]LogInit: FAudioDevice initialized.
+[2017.12.05-03.47.32:522][568]LogLoad: Game class is 'GameModeBase'
+[2017.12.05-03.47.32:523][568]LogWorld: Bringing World /Game/MyMaps/UEDPIE_0_StartMap.StartMap up for play (max tick rate 0) at 2017.12.05-16.47.32
+[2017.12.05-03.47.32:523][568]LogWorld: Bringing up level for play took: 0.000713
+[2017.12.05-03.47.32:524][568]PIE: Play in editor start time for /Game/MyMaps/UEDPIE_0_StartMap 0.209
+[2017.12.05-03.48.15:932][671]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.12.05-03.48.15:974][672]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.UE4PG2
+[2017.12.05-03.48.15:974][672]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2017.12.05-03.48.15:974][672]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.18
+[2017.12.05-03.48.15:974][672]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2017.12.05-03.48.15:974][672]LogTemp: BranchPath = TOKEYO/C/Program Files/Epic Games/UE_4.18/Engine/Binaries --- GameBranchPath = TOKEYO/C/Program Files/Epic Games/UE_4.18/Engine/Binaries
+[2017.12.05-03.48.15:988][673]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\jpyepez\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.12.05-03.51.53:472][701]LogSavePackage: Save=29.13ms
+[2017.12.05-03.51.53:472][701]LogSavePackage: Moving '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4PG2/Saved/StartMap_Auto1DC67CDF14C0B88ED751ED5ABB555494F.tmp' to '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4PG2/Saved/Autosaves/Game/MyMaps/StartMap_Auto1.umap'
+[2017.12.05-03.51.53:474][701]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4PG2/Saved/Autosaves/Game/MyMaps/StartMap_Auto1.umap
+[2017.12.05-03.51.53:475][701]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MyMaps/StartMap' took 0.058
+[2017.12.05-03.51.53:475][701]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.058
+[2017.12.05-03.59.07:113][122]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2017.12.05-03.59.07:118][122]Candidate modules for hot reload:
+[2017.12.05-03.59.07:118][122]  UE4PG2
+[2017.12.05-03.59.07:118][122]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe UE4PG2 -ModuleWithSuffix UE4PG2 1158 Win64 Development -editorrecompile -canskiplink "C:/Users/jpyepez/Documents/Unreal Projects/UE4PG2/UE4PG2.uproject" ]
+[2017.12.05-03.59.07:120][122]Warning: Starting HotReload took  0.0s.
+[2017.12.05-03.59.22:945][ 20]CompilerResultsLog: New page: Compilation - Dec 6, 2017, 5:59:22 AM
+[2017.12.05-03.59.22:946][ 20]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2017.12.05-03.59.22:946][ 20]CompilerResultsLog: Creating makefile for hot reloading UE4PG2 (ini files are newer than UBTMakefile)
+[2017.12.05-03.59.22:946][ 20]CompilerResultsLog: Compiling game modules for hot reload
+[2017.12.05-03.59.22:946][ 20]CompilerResultsLog: Parsing headers for UE4PG2Editor
+[2017.12.05-03.59.22:946][ 20]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\jpyepez\Documents\Unreal Projects\UE4PG2\UE4PG2.uproject" "C:\Users\jpyepez\Documents\Unreal Projects\UE4PG2\Intermediate\Build\Win64\UE4PG2Editor\Development\UE4PG2Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.12.05-03.59.22:946][ 20]CompilerResultsLog: Reflection code generated for UE4PG2Editor in 8.4466968 seconds
+[2017.12.05-03.59.22:946][ 20]CompilerResultsLog: Performing 4 actions (9 in parallel)
+[2017.12.05-03.59.22:946][ 20]CompilerResultsLog: MyPawnBall.gen.cpp
+[2017.12.05-03.59.22:946][ 20]CompilerResultsLog: MyPawnBall.cpp
+[2017.12.05-03.59.22:946][ 20]CompilerResultsLog: [3/4] Link UE4Editor-UE4PG2-1158.dll
+[2017.12.05-03.59.22:946][ 20]CompilerResultsLog: [4/4] Link UE4Editor-UE4PG2-1158.lib
+[2017.12.05-03.59.22:946][ 20]CompilerResultsLog:    Creating library C:\Users\jpyepez\Documents\Unreal Projects\UE4PG2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4PG2-1158.lib and object C:\Users\jpyepez\Documents\Unreal Projects\UE4PG2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4PG2-1158.exp
+[2017.12.05-03.59.22:946][ 20]CompilerResultsLog:    Creating library C:\Users\jpyepez\Documents\Unreal Projects\UE4PG2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4PG2-1158.suppressed.lib and object C:\Users\jpyepez\Documents\Unreal Projects\UE4PG2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4PG2-1158.suppressed.exp
+[2017.12.05-03.59.22:946][ 20]CompilerResultsLog: Total build time: 15.64 seconds (Local executor: 1.31 seconds)
+[2017.12.05-03.59.22:946][ 20]LogMainFrame: MainFrame: Module compiling took 15.833 seconds
+[2017.12.05-03.59.23:017][ 20]LogContentBrowser: Native class hierarchy updated for 'UE4PG2' in 0.0006 seconds. Added 2 classes and 2 folders.
+[2017.12.05-03.59.23:018][ 20]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.12.05-03.59.23:057][ 20]LogContentBrowser: Native class hierarchy populated in 0.0088 seconds. Added 2367 classes and 525 folders.
+[2017.12.05-03.59.23:059][ 20]Display: HotReload took 15.9s.
+[2017.12.05-03.59.30:102][865]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.05-03.59.30:113][865]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.05-03.59.30:113][865]PIE: New page: PIE session: StartMap (Dec 6, 2017, 5:59:30 AM)
+[2017.12.05-03.59.30:113][865]LogPlayLevel: Creating play world package: /Game/MyMaps/UEDPIE_0_StartMap
+[2017.12.05-03.59.30:116][865]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003150s)
+[2017.12.05-03.59.30:117][865]LogAIModule: Creating AISystem for world StartMap
+[2017.12.05-03.59.30:117][865]LogPlayLevel: PIE: World Init took: (0.000859s)
+[2017.12.05-03.59.30:117][865]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyMaps/StartMap.StartMap to /Game/MyMaps/UEDPIE_0_StartMap.StartMap (0.004314s)
+[2017.12.05-03.59.30:131][865]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.05-03.59.30:148][865]LogInit: FAudioDevice initialized.
+[2017.12.05-03.59.30:183][865]LogLoad: Game class is 'GameModeBase'
+[2017.12.05-03.59.30:184][865]LogWorld: Bringing World /Game/MyMaps/UEDPIE_0_StartMap.StartMap up for play (max tick rate 0) at 2017.12.05-16.59.30
+[2017.12.05-03.59.30:184][865]LogWorld: Bringing up level for play took: 0.000762
+[2017.12.05-03.59.30:185][865]PIE: Play in editor start time for /Game/MyMaps/UEDPIE_0_StartMap -0.13
+[2017.12.05-04.02.14:391][113]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2017.12.05-04.02.14:396][113]Candidate modules for hot reload:
+[2017.12.05-04.02.14:396][113]  UE4PG2
+[2017.12.05-04.02.14:396][113]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe UE4PG2 -ModuleWithSuffix UE4PG2 3370 Win64 Development -editorrecompile -canskiplink "C:/Users/jpyepez/Documents/Unreal Projects/UE4PG2/UE4PG2.uproject" ]
+[2017.12.05-04.02.14:398][113]Warning: Starting HotReload took  0.0s.
+[2017.12.05-04.02.16:585][219]CompilerResultsLog: New page: Compilation - Dec 6, 2017, 6:02:16 AM
+[2017.12.05-04.02.16:585][219]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2017.12.05-04.02.16:585][219]CompilerResultsLog: Compiling game modules for hot reload
+[2017.12.05-04.02.16:585][219]CompilerResultsLog: Performing 3 actions (9 in parallel)
+[2017.12.05-04.02.16:585][219]CompilerResultsLog: MyPawnBall.cpp
+[2017.12.05-04.02.16:585][219]CompilerResultsLog: [2/3] Link UE4Editor-UE4PG2-3370.dll
+[2017.12.05-04.02.16:585][219]CompilerResultsLog: [3/3] Link UE4Editor-UE4PG2-3370.lib
+[2017.12.05-04.02.16:585][219]CompilerResultsLog:    Creating library C:\Users\jpyepez\Documents\Unreal Projects\UE4PG2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4PG2-3370.lib and object C:\Users\jpyepez\Documents\Unreal Projects\UE4PG2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4PG2-3370.exp
+[2017.12.05-04.02.16:585][219]CompilerResultsLog:    Creating library C:\Users\jpyepez\Documents\Unreal Projects\UE4PG2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4PG2-3370.suppressed.lib and object C:\Users\jpyepez\Documents\Unreal Projects\UE4PG2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4PG2-3370.suppressed.exp
+[2017.12.05-04.02.16:585][219]CompilerResultsLog: Total build time: 1.91 seconds (Local executor: 1.12 seconds)
+[2017.12.05-04.02.16:585][219]LogMainFrame: MainFrame: Module compiling took 2.193 seconds
+[2017.12.05-04.02.16:654][219]LogContentBrowser: Native class hierarchy updated for 'UE4PG2' in 0.0007 seconds. Added 2 classes and 2 folders.
+[2017.12.05-04.02.16:655][219]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.12.05-04.02.16:691][219]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 2367 classes and 525 folders.
+[2017.12.05-04.02.16:693][219]Display: HotReload took  2.3s.
+[2017.12.05-04.02.18:763][286]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.12.05-04.02.19:448][361]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.05-04.02.19:460][361]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.05-04.02.19:460][361]PIE: New page: PIE session: StartMap (Dec 6, 2017, 6:02:19 AM)
+[2017.12.05-04.02.19:460][361]LogPlayLevel: Creating play world package: /Game/MyMaps/UEDPIE_0_StartMap
+[2017.12.05-04.02.19:463][361]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002872s)
+[2017.12.05-04.02.19:464][361]LogAIModule: Creating AISystem for world StartMap
+[2017.12.05-04.02.19:464][361]LogPlayLevel: PIE: World Init took: (0.000727s)
+[2017.12.05-04.02.19:464][361]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyMaps/StartMap.StartMap to /Game/MyMaps/UEDPIE_0_StartMap.StartMap (0.003906s)
+[2017.12.05-04.02.19:478][361]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.05-04.02.19:490][361]LogInit: FAudioDevice initialized.
+[2017.12.05-04.02.19:523][361]LogLoad: Game class is 'GameModeBase'
+[2017.12.05-04.02.19:524][361]LogWorld: Bringing World /Game/MyMaps/UEDPIE_0_StartMap.StartMap up for play (max tick rate 0) at 2017.12.05-17.02.19
+[2017.12.05-04.02.19:524][361]LogWorld: Bringing up level for play took: 0.000753
+[2017.12.05-04.02.19:525][361]PIE: Play in editor start time for /Game/MyMaps/UEDPIE_0_StartMap -0.79
+[2017.12.05-04.05.19:125][872]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2017.12.05-04.05.19:130][872]Candidate modules for hot reload:
+[2017.12.05-04.05.19:130][872]  UE4PG2
+[2017.12.05-04.05.19:130][872]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe UE4PG2 -ModuleWithSuffix UE4PG2 818 Win64 Development -editorrecompile -canskiplink "C:/Users/jpyepez/Documents/Unreal Projects/UE4PG2/UE4PG2.uproject" ]
+[2017.12.05-04.05.19:132][872]Warning: Starting HotReload took  0.0s.
+[2017.12.05-04.05.21:372][141]CompilerResultsLog: New page: Compilation - Dec 6, 2017, 6:05:21 AM
+[2017.12.05-04.05.21:372][141]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2017.12.05-04.05.21:372][141]CompilerResultsLog: Compiling game modules for hot reload
+[2017.12.05-04.05.21:372][141]CompilerResultsLog: Performing 3 actions (9 in parallel)
+[2017.12.05-04.05.21:372][141]CompilerResultsLog: MyPawnBall.cpp
+[2017.12.05-04.05.21:372][141]CompilerResultsLog: [2/3] Link UE4Editor-UE4PG2-818.dll
+[2017.12.05-04.05.21:372][141]CompilerResultsLog: [3/3] Link UE4Editor-UE4PG2-818.lib
+[2017.12.05-04.05.21:372][141]CompilerResultsLog:    Creating library C:\Users\jpyepez\Documents\Unreal Projects\UE4PG2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4PG2-818.lib and object C:\Users\jpyepez\Documents\Unreal Projects\UE4PG2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4PG2-818.exp
+[2017.12.05-04.05.21:372][141]CompilerResultsLog:    Creating library C:\Users\jpyepez\Documents\Unreal Projects\UE4PG2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4PG2-818.suppressed.lib and object C:\Users\jpyepez\Documents\Unreal Projects\UE4PG2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UE4PG2-818.suppressed.exp
+[2017.12.05-04.05.21:372][141]CompilerResultsLog: Total build time: 2.05 seconds (Local executor: 1.23 seconds)
+[2017.12.05-04.05.21:372][141]LogMainFrame: MainFrame: Module compiling took 2.247 seconds
+[2017.12.05-04.05.21:433][141]LogContentBrowser: Native class hierarchy updated for 'UE4PG2' in 0.0006 seconds. Added 2 classes and 2 folders.
+[2017.12.05-04.05.21:434][141]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.12.05-04.05.21:476][141]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 2367 classes and 525 folders.
+[2017.12.05-04.05.21:478][141]Display: HotReload took  2.4s.
+[2017.12.05-04.05.22:760][295]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.05-04.05.22:771][295]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.05-04.05.22:771][295]PIE: New page: PIE session: StartMap (Dec 6, 2017, 6:05:22 AM)
+[2017.12.05-04.05.22:771][295]LogPlayLevel: Creating play world package: /Game/MyMaps/UEDPIE_0_StartMap
+[2017.12.05-04.05.22:774][295]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002824s)
+[2017.12.05-04.05.22:775][295]LogAIModule: Creating AISystem for world StartMap
+[2017.12.05-04.05.22:775][295]LogPlayLevel: PIE: World Init took: (0.000596s)
+[2017.12.05-04.05.22:775][295]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyMaps/StartMap.StartMap to /Game/MyMaps/UEDPIE_0_StartMap.StartMap (0.003665s)
+[2017.12.05-04.05.22:788][295]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.05-04.05.22:800][295]LogInit: FAudioDevice initialized.
+[2017.12.05-04.05.22:833][295]LogLoad: Game class is 'GameModeBase'
+[2017.12.05-04.05.22:834][295]LogWorld: Bringing World /Game/MyMaps/UEDPIE_0_StartMap.StartMap up for play (max tick rate 0) at 2017.12.05-17.05.22
+[2017.12.05-04.05.22:834][295]LogWorld: Bringing up level for play took: 0.000714
+[2017.12.05-04.05.22:835][295]PIE: Play in editor start time for /Game/MyMaps/UEDPIE_0_StartMap 0.52
+[2017.12.05-04.06.26:815][961]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.12.05-04.06.28:972][ 94]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.12.05-04.06.30:882][320]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMaps/StartMap" FILE="../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4PG2/Content/MyMaps/StartMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.12.05-04.06.30:935][320]LogSavePackage: Save=33.09ms
+[2017.12.05-04.06.30:936][320]LogSavePackage: Moving '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4PG2/Saved/StartMapF03A426F471AEAC439659B9606ED352A.tmp' to '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4PG2/Content/MyMaps/StartMap.umap'
+[2017.12.05-04.06.30:939][320]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4PG2/Content/MyMaps/StartMap.umap
+[2017.12.05-04.06.30:957][320]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyMaps/StartMap_BuiltData" FILE="../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4PG2/Content/MyMaps/StartMap_BuiltData.uasset" SILENT=true
+[2017.12.05-04.06.30:976][320]LogSavePackage: Save=11.27ms
+[2017.12.05-04.06.30:976][320]LogSavePackage: Moving '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4PG2/Saved/StartMap_BuiltDataF98ACE134159E14AE42F8CBD939081CB.tmp' to '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4PG2/Content/MyMaps/StartMap_BuiltData.uasset'
+[2017.12.05-04.06.30:977][320]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4PG2/Content/MyMaps/StartMap_BuiltData.uasset
+[2017.12.05-04.06.33:073][562]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.12.05-04.06.33:271][563]Cmd: QUIT_EDITOR
+[2017.12.05-04.06.33:955][563]LogExit: Preparing to exit.
+[2017.12.05-04.06.34:349][563]LogDirectoryWatcher: A directory notification for 'C:/Users/jpyepez/Documents/Unreal Projects/UE4PG2/Content/' was aborted.
+[2017.12.05-04.06.34:400][563]LogExit: Editor shut down
+[2017.12.05-04.06.34:423][563]LogExit: Transaction tracking system shut down
+[2017.12.05-04.06.34:550][563]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.12.05-04.06.34:550][563]LogDirectoryWatcher: A directory notification for '../../../../../../Users/jpyepez/Documents/Unreal Projects/UE4PG2/Content/' was aborted.
+[2017.12.05-04.06.34:550][563]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.12.05-04.06.34:550][563]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
+[2017.12.05-04.06.34:550][563]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2017.12.05-04.06.34:551][563]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.12.05-04.06.34:551][563]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.12.05-04.06.34:613][563]LogExit: Object subsystem successfully closed.
+[2017.12.05-04.06.34:637][563]LogD3D11RHI: Shutdown
+[2017.12.05-04.06.34:637][563]LogD3D11RHI: CleanupD3DDevice
+[2017.12.05-04.06.34:641][563]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.12.05-04.06.34:653][563]LogModuleManager: Shutting down and abandoning module UE4PG2 (560)
+[2017.12.05-04.06.34:653][563]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (554)
+[2017.12.05-04.06.34:653][563]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (552)
+[2017.12.05-04.06.34:653][563]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (550)
+[2017.12.05-04.06.34:653][563]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (548)
+[2017.12.05-04.06.34:653][563]LogModuleManager: Shutting down and abandoning module DesktopPlatform (546)
+[2017.12.05-04.06.34:653][563]LogModuleManager: Shutting down and abandoning module AddContentDialog (544)
+[2017.12.05-04.06.34:654][563]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
+[2017.12.05-04.06.34:658][563]LogModuleManager: Shutting down and abandoning module WidgetCarousel (543)
+[2017.12.05-04.06.34:658][563]LogModuleManager: Shutting down and abandoning module EditorWidgets (540)
+[2017.12.05-04.06.34:658][563]LogModuleManager: Shutting down and abandoning module CollectionManager (538)
+[2017.12.05-04.06.34:658][563]LogDirectoryWatcher: A directory notification for 'C:/Users/jpyepez/Documents/Unreal Projects/UE4PG2/Content/Collections/' was aborted.
+[2017.12.05-04.06.34:658][563]LogDirectoryWatcher: A directory notification for 'C:/Users/jpyepez/Documents/Unreal Projects/UE4PG2/Content/Developers/jpyepez/Collections/' was aborted.
+[2017.12.05-04.06.34:658][563]LogDirectoryWatcher: A directory notification for 'C:/Users/jpyepez/Documents/Unreal Projects/UE4PG2/Saved/Collections/' was aborted.
+[2017.12.05-04.06.34:658][563]LogModuleManager: Shutting down and abandoning module SceneOutliner (536)
+[2017.12.05-04.06.34:658][563]LogModuleManager: Shutting down and abandoning module StatsViewer (534)
+[2017.12.05-04.06.34:658][563]LogModuleManager: Shutting down and abandoning module FoliageEdit (532)
+[2017.12.05-04.06.34:658][563]LogModuleManager: Shutting down and abandoning module LandscapeEditor (530)
+[2017.12.05-04.06.34:658][563]LogModuleManager: Shutting down and abandoning module MeshPaintMode (528)
+[2017.12.05-04.06.34:659][563]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (526)
+[2017.12.05-04.06.34:659][563]LogModuleManager: Shutting down and abandoning module ActorPickerMode (524)
+[2017.12.05-04.06.34:659][563]LogModuleManager: Shutting down and abandoning module GeometryMode (522)
+[2017.12.05-04.06.34:659][563]LogModuleManager: Shutting down and abandoning module TextureAlignMode (520)
+[2017.12.05-04.06.34:659][563]LogModuleManager: Shutting down and abandoning module BspMode (518)
+[2017.12.05-04.06.34:659][563]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (516)
+[2017.12.05-04.06.34:659][563]LogModuleManager: Shutting down and abandoning module HardwareSurvey (514)
+[2017.12.05-04.06.34:659][563]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (512)
+[2017.12.05-04.06.34:659][563]LogModuleManager: Shutting down and abandoning module AutomationWorker (510)
+[2017.12.05-04.06.34:659][563]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (508)
+[2017.12.05-04.06.34:659][563]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (506)
+[2017.12.05-04.06.34:659][563]LogModuleManager: Shutting down and abandoning module PlacementMode (505)
+[2017.12.05-04.06.34:659][563]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (502)
+[2017.12.05-04.06.34:659][563]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (500)
+[2017.12.05-04.06.34:659][563]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (498)
+[2017.12.05-04.06.34:659][563]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (496)
+[2017.12.05-04.06.34:659][563]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (494)
+[2017.12.05-04.06.34:659][563]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (492)
+[2017.12.05-04.06.34:659][563]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (490)
+[2017.12.05-04.06.34:659][563]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (488)
+[2017.12.05-04.06.34:659][563]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (486)
+[2017.12.05-04.06.34:659][563]LogModuleManager: Shutting down and abandoning module CharacterAI (484)
+[2017.12.05-04.06.34:659][563]LogModuleManager: Shutting down and abandoning module AudioCapture (482)
+[2017.12.05-04.06.34:659][563]LogModuleManager: Shutting down and abandoning module SequenceRecorder (481)
+[2017.12.05-04.06.34:659][563]LogModuleManager: Shutting down and abandoning module SmartSnapping (478)
+[2017.12.05-04.06.34:659][563]LogModuleManager: Shutting down and abandoning module SessionServices (476)
+[2017.12.05-04.06.34:659][563]LogModuleManager: Shutting down and abandoning module ViewportSnapping (474)
+[2017.12.05-04.06.34:659][563]LogModuleManager: Shutting down and abandoning module ViewportInteraction (472)
+[2017.12.05-04.06.34:659][563]LogModuleManager: Shutting down and abandoning module ClothPainter (470)
+[2017.12.05-04.06.34:659][563]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (469)
+[2017.12.05-04.06.34:659][563]LogModuleManager: Shutting down and abandoning module LogVisualizer (466)
+[2017.12.05-04.06.34:659][563]LogModuleManager: Shutting down and abandoning module IntroTutorials (464)
+[2017.12.05-04.06.34:659][563]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (463)
+[2017.12.05-04.06.34:659][563]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (460)
+[2017.12.05-04.06.34:659][563]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (458)
+[2017.12.05-04.06.34:659][563]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (456)
+[2017.12.05-04.06.34:659][563]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (455)
+[2017.12.05-04.06.34:985][563]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (452)
+[2017.12.05-04.06.34:985][563]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (450)
+[2017.12.05-04.06.34:985][563]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (448)
+[2017.12.05-04.06.34:985][563]LogModuleManager: Shutting down and abandoning module InputBindingEditor (446)
+[2017.12.05-04.06.34:985][563]LogModuleManager: Shutting down and abandoning module MergeActors (444)
+[2017.12.05-04.06.34:985][563]LogModuleManager: Shutting down and abandoning module SizeMap (442)
+[2017.12.05-04.06.34:985][563]LogModuleManager: Shutting down and abandoning module TreeMap (440)
+[2017.12.05-04.06.34:985][563]LogModuleManager: Shutting down and abandoning module ReferenceViewer (438)
+[2017.12.05-04.06.34:985][563]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (436)
+[2017.12.05-04.06.34:985][563]LogModuleManager: Shutting down and abandoning module LocalizationService (435)
+[2017.12.05-04.06.34:985][563]LogModuleManager: Shutting down and abandoning module HardwareTargeting (432)
+[2017.12.05-04.06.34:985][563]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (430)
+[2017.12.05-04.06.34:985][563]LogModuleManager: Shutting down and abandoning module UndoHistory (428)
+[2017.12.05-04.06.34:985][563]LogModuleManager: Shutting down and abandoning module XmlParser (426)
+[2017.12.05-04.06.34:985][563]LogModuleManager: Shutting down and abandoning module Blutility (424)
+[2017.12.05-04.06.34:985][563]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (422)
+[2017.12.05-04.06.34:985][563]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (421)
+[2017.12.05-04.06.34:986][563]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (418)
+[2017.12.05-04.06.34:986][563]LogModuleManager: Shutting down and abandoning module SettingsEditor (416)
+[2017.12.05-04.06.34:986][563]LogModuleManager: Shutting down and abandoning module ProjectLauncher (414)
+[2017.12.05-04.06.34:986][563]LogModuleManager: Shutting down and abandoning module SessionFrontend (412)
+[2017.12.05-04.06.34:986][563]LogModuleManager: Shutting down and abandoning module ProfilerClient (410)
+[2017.12.05-04.06.34:986][563]LogModuleManager: Shutting down and abandoning module DeviceManager (408)
+[2017.12.05-04.06.34:986][563]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (407)
+[2017.12.05-04.06.35:049][563]LogModuleManager: Shutting down and abandoning module AutomationController (404)
+[2017.12.05-04.06.35:049][563]LogModuleManager: Shutting down and abandoning module AutomationWindow (402)
+[2017.12.05-04.06.35:049][563]LogModuleManager: Shutting down and abandoning module Layers (400)
+[2017.12.05-04.06.35:049][563]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (398)
+[2017.12.05-04.06.35:049][563]LogModuleManager: Shutting down and abandoning module DetailCustomizations (396)
+[2017.12.05-04.06.35:049][563]LogModuleManager: Shutting down and abandoning module PackagesDialog (394)
+[2017.12.05-04.06.35:049][563]LogModuleManager: Shutting down and abandoning module Persona (392)
+[2017.12.05-04.06.35:050][563]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (391)
+[2017.12.05-04.06.35:050][563]LogModuleManager: Shutting down and abandoning module AnimGraph (389)
+[2017.12.05-04.06.35:050][563]LogModuleManager: Shutting down and abandoning module Kismet (386)
+[2017.12.05-04.06.35:050][563]LogModuleManager: Shutting down and abandoning module ClassViewer (384)
+[2017.12.05-04.06.35:050][563]LogModuleManager: Shutting down and abandoning module Toolbox (382)
+[2017.12.05-04.06.35:050][563]LogModuleManager: Shutting down and abandoning module ModuleUI (380)
+[2017.12.05-04.06.35:050][563]LogModuleManager: Shutting down and abandoning module MovieSceneTools (378)
+[2017.12.05-04.06.35:050][563]LogModuleManager: Shutting down and abandoning module OutputLog (376)
+[2017.12.05-04.06.35:050][563]LogModuleManager: Shutting down and abandoning module GammaUI (374)
+[2017.12.05-04.06.35:050][563]LogModuleManager: Shutting down and abandoning module Documentation (372)
+[2017.12.05-04.06.35:050][563]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (370)
+[2017.12.05-04.06.35:050][563]LogModuleManager: Shutting down and abandoning module MovieScene (368)
+[2017.12.05-04.06.35:050][563]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (366)
+[2017.12.05-04.06.35:050][563]LogModuleManager: Shutting down and abandoning module LauncherPlatform (364)
+[2017.12.05-04.06.35:050][563]LogModuleManager: Shutting down and abandoning module AnalyticsET (362)
+[2017.12.05-04.06.35:050][563]LogModuleManager: Shutting down and abandoning module PortalServices (360)
+[2017.12.05-04.06.35:050][563]LogModuleManager: Shutting down and abandoning module PortalRpc (358)
+[2017.12.05-04.06.35:050][563]LogModuleManager: Shutting down and abandoning module MessagingRpc (356)
+[2017.12.05-04.06.35:050][563]LogModuleManager: Shutting down and abandoning module AIModule (354)
+[2017.12.05-04.06.35:050][563]LogModuleManager: Shutting down and abandoning module GameplayDebugger (353)
+[2017.12.05-04.06.35:050][563]LogModuleManager: Shutting down and abandoning module AITestSuite (351)
+[2017.12.05-04.06.35:050][563]LogModuleManager: Shutting down and abandoning module ProfilerService (348)
+[2017.12.05-04.06.35:118][563]LogModuleManager: Shutting down and abandoning module TaskGraph (346)
+[2017.12.05-04.06.35:118][563]LogModuleManager: Shutting down and abandoning module SteamVRController (344)
+[2017.12.05-04.06.35:118][563]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (342)
+[2017.12.05-04.06.35:118][563]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (340)
+[2017.12.05-04.06.35:118][563]LogModuleManager: Shutting down and abandoning module OculusInput (338)
+[2017.12.05-04.06.35:118][563]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (336)
+[2017.12.05-04.06.35:118][563]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (334)
+[2017.12.05-04.06.35:118][563]LogModuleManager: Shutting down and abandoning module CableComponent (332)
+[2017.12.05-04.06.35:118][563]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (330)
+[2017.12.05-04.06.35:118][563]LogModuleManager: Shutting down and abandoning module AndroidPermission (328)
+[2017.12.05-04.06.35:118][563]LogModuleManager: Shutting down and abandoning module ActorSequence (324)
+[2017.12.05-04.06.35:118][563]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (322)
+[2017.12.05-04.06.35:118][563]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (320)
+[2017.12.05-04.06.35:118][563]LogModuleManager: Shutting down and abandoning module MediaCompositing (318)
+[2017.12.05-04.06.35:118][563]LogModuleManager: Shutting down and abandoning module HTML5Networking (316)
+[2017.12.05-04.06.35:118][563]LogModuleManager: Shutting down and abandoning module AlembicImporter (314)
+[2017.12.05-04.06.35:118][563]LogModuleManager: Shutting down and abandoning module AlembicLibrary (313)
+[2017.12.05-04.06.35:119][563]LogModuleManager: Shutting down and abandoning module GeometryCache (312)
+[2017.12.05-04.06.35:119][563]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (311)
+[2017.12.05-04.06.35:119][563]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (306)
+[2017.12.05-04.06.35:119][563]LogModuleManager: Shutting down and abandoning module PluginBrowser (304)
+[2017.12.05-04.06.35:119][563]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (302)
+[2017.12.05-04.06.35:119][563]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (300)
+[2017.12.05-04.06.35:119][563]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (298)
+[2017.12.05-04.06.35:119][563]LogModuleManager: Shutting down and abandoning module UObjectPlugin (296)
+[2017.12.05-04.06.35:119][563]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (294)
+[2017.12.05-04.06.35:119][563]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (292)
+[2017.12.05-04.06.35:119][563]LogModuleManager: Shutting down and abandoning module GitSourceControl (290)
+[2017.12.05-04.06.35:119][563]LogModuleManager: Shutting down and abandoning module SourceControl (289)
+[2017.12.05-04.06.35:119][563]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (286)
+[2017.12.05-04.06.35:119][563]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (284)
+[2017.12.05-04.06.35:119][563]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (282)
+[2017.12.05-04.06.35:119][563]LogModuleManager: Shutting down and abandoning module Paper2DEditor (280)
+[2017.12.05-04.06.35:119][563]LogModuleManager: Shutting down and abandoning module MeshPaint (279)
+[2017.12.05-04.06.35:119][563]LogModuleManager: Shutting down and abandoning module LevelEditor (277)
+[2017.12.05-04.06.35:120][563]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (276)
+[2017.12.05-04.06.35:120][563]LogModuleManager: Shutting down and abandoning module MainFrame (274)
+[2017.12.05-04.06.35:120][563]LogModuleManager: Shutting down and abandoning module HotReload (273)
+[2017.12.05-04.06.35:120][563]LogDirectoryWatcher: A directory notification for 'C:/Users/jpyepez/Documents/Unreal Projects/UE4PG2/Binaries/Win64' was aborted.
+[2017.12.05-04.06.35:121][563]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (266)
+[2017.12.05-04.06.35:121][563]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (264)
+[2017.12.05-04.06.35:121][563]LogModuleManager: Shutting down and abandoning module PhysXVehicles (262)
+[2017.12.05-04.06.35:121][563]LogModuleManager: Shutting down and abandoning module OculusEditor (260)
+[2017.12.05-04.06.35:121][563]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (258)
+[2017.12.05-04.06.35:121][563]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (256)
+[2017.12.05-04.06.35:121][563]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (254)
+[2017.12.05-04.06.35:121][563]LogModuleManager: Shutting down and abandoning module UdpMessaging (252)
+[2017.12.05-04.06.35:221][563]LogModuleManager: Shutting down and abandoning module TcpMessaging (250)
+[2017.12.05-04.06.35:322][563]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (248)
+[2017.12.05-04.06.35:322][563]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (246)
+[2017.12.05-04.06.35:322][563]LogModuleManager: Shutting down and abandoning module FacialAnimation (244)
+[2017.12.05-04.06.35:322][563]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (242)
+[2017.12.05-04.06.35:322][563]LogModuleManager: Shutting down and abandoning module GraphEditor (241)
+[2017.12.05-04.06.35:322][563]LogModuleManager: Shutting down and abandoning module ContentBrowser (239)
+[2017.12.05-04.06.35:323][563]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (236)
+[2017.12.05-04.06.35:323][563]LogModuleManager: Shutting down and abandoning module Paper2D (234)
+[2017.12.05-04.06.35:323][563]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (232)
+[2017.12.05-04.06.35:323][563]LogModuleManager: Shutting down and abandoning module WmfMedia (230)
+[2017.12.05-04.06.35:323][563]LogModuleManager: Shutting down and abandoning module ImgMedia (228)
+[2017.12.05-04.06.35:323][563]LogModuleManager: Shutting down and abandoning module PacketHandler (226)
+[2017.12.05-04.06.35:323][563]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (224)
+[2017.12.05-04.06.35:323][563]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (222)
+[2017.12.05-04.06.35:323][563]LogModuleManager: Shutting down and abandoning module MediaAssets (220)
+[2017.12.05-04.06.35:323][563]LogModuleManager: Shutting down and abandoning module Media (219)
+[2017.12.05-04.06.35:330][563]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.12.05-04.06.35:330][563]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.12.05-04.06.35:330][563]LogModuleManager: Shutting down and abandoning module VREditor (212)
+[2017.12.05-04.06.35:330][563]LogModuleManager: Shutting down and abandoning module StringTableEditor (210)
+[2017.12.05-04.06.35:330][563]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (208)
+[2017.12.05-04.06.35:330][563]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (206)
+[2017.12.05-04.06.35:330][563]LogModuleManager: Shutting down and abandoning module FunctionalTesting (204)
+[2017.12.05-04.06.35:330][563]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (202)
+[2017.12.05-04.06.35:330][563]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (201)
+[2017.12.05-04.06.35:330][563]LogModuleManager: Shutting down and abandoning module UMG (198)
+[2017.12.05-04.06.35:330][563]LogModuleManager: Shutting down and abandoning module UMGEditor (197)
+[2017.12.05-04.06.35:330][563]LogModuleManager: Shutting down and abandoning module Sequencer (196)
+[2017.12.05-04.06.35:331][563]LogModuleManager: Shutting down and abandoning module MessageLog (193)
+[2017.12.05-04.06.35:331][563]LogModuleManager: Shutting down and abandoning module SlateReflector (188)
+[2017.12.05-04.06.35:331][563]LogModuleManager: Shutting down and abandoning module Slate (186)
+[2017.12.05-04.06.35:331][563]LogModuleManager: Shutting down and abandoning module EditorStyle (184)
+[2017.12.05-04.06.35:333][563]LogModuleManager: Shutting down and abandoning module MRMesh (182)
+[2017.12.05-04.06.35:333][563]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (180)
+[2017.12.05-04.06.35:333][563]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (178)
+[2017.12.05-04.06.35:333][563]LogModuleManager: Shutting down and abandoning module XAudio2 (176)
+[2017.12.05-04.06.35:333][563]LogModuleManager: Shutting down and abandoning module Networking (174)
+[2017.12.05-04.06.35:333][563]LogModuleManager: Shutting down and abandoning module Core (170)
+[2017.12.05-04.06.35:333][563]LogModuleManager: Shutting down and abandoning module LevelSequence (166)
+[2017.12.05-04.06.35:333][563]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (164)
+[2017.12.05-04.06.35:340][563]LogModuleManager: Shutting down and abandoning module KismetCompiler (162)
+[2017.12.05-04.06.35:340][563]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2017.12.05-04.06.35:340][563]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2017.12.05-04.06.35:340][563]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2017.12.05-04.06.35:340][563]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2017.12.05-04.06.35:340][563]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2017.12.05-04.06.35:340][563]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2017.12.05-04.06.35:340][563]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2017.12.05-04.06.35:340][563]LogModuleManager: Shutting down and abandoning module DerivedDataCache (146)
+[2017.12.05-04.06.35:360][563]LogDerivedDataCache: Shutdown
+[2017.12.05-04.06.35:360][563]LogModuleManager: Shutting down and abandoning module TargetPlatform (144)
+[2017.12.05-04.06.35:360][563]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (143)
+[2017.12.05-04.06.35:360][563]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (141)
+[2017.12.05-04.06.35:360][563]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (139)
+[2017.12.05-04.06.35:360][563]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (137)
+[2017.12.05-04.06.35:360][563]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (135)
+[2017.12.05-04.06.35:360][563]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (133)
+[2017.12.05-04.06.35:361][563]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (131)
+[2017.12.05-04.06.35:361][563]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (129)
+[2017.12.05-04.06.35:361][563]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (127)
+[2017.12.05-04.06.35:361][563]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (125)
+[2017.12.05-04.06.35:361][563]LogModuleManager: Shutting down and abandoning module ImageWrapper (124)
+[2017.12.05-04.06.35:361][563]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (121)
+[2017.12.05-04.06.35:361][563]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (119)
+[2017.12.05-04.06.35:361][563]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (117)
+[2017.12.05-04.06.35:361][563]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (115)
+[2017.12.05-04.06.35:361][563]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (113)
+[2017.12.05-04.06.35:361][563]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (111)
+[2017.12.05-04.06.35:361][563]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (109)
+[2017.12.05-04.06.35:361][563]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (107)
+[2017.12.05-04.06.35:361][563]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (105)
+[2017.12.05-04.06.35:361][563]LogModuleManager: Shutting down and abandoning module Messaging (103)
+[2017.12.05-04.06.35:361][563]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (101)
+[2017.12.05-04.06.35:361][563]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (99)
+[2017.12.05-04.06.35:361][563]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (97)
+[2017.12.05-04.06.35:361][563]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.12.05-04.06.35:361][563]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.12.05-04.06.35:361][563]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.12.05-04.06.35:361][563]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.12.05-04.06.35:361][563]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.12.05-04.06.35:361][563]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.12.05-04.06.35:361][563]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.12.05-04.06.35:361][563]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (81)
+[2017.12.05-04.06.35:361][563]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (79)
+[2017.12.05-04.06.35:361][563]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (77)
+[2017.12.05-04.06.35:361][563]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (75)
+[2017.12.05-04.06.35:361][563]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (73)
+[2017.12.05-04.06.35:361][563]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (71)
+[2017.12.05-04.06.35:361][563]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (69)
+[2017.12.05-04.06.35:361][563]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (67)
+[2017.12.05-04.06.35:361][563]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (65)
+[2017.12.05-04.06.35:361][563]LogModuleManager: Shutting down and abandoning module InputCore (62)
+[2017.12.05-04.06.35:361][563]LogModuleManager: Shutting down and abandoning module Settings (60)
+[2017.12.05-04.06.35:361][563]LogModuleManager: Shutting down and abandoning module PhysXCooking (58)
+[2017.12.05-04.06.35:362][563]LogModuleManager: Shutting down and abandoning module SteamVR (56)
+[2017.12.05-04.06.35:362][563]LogModuleManager: Shutting down and abandoning module OculusHMD (54)
+[2017.12.05-04.06.35:362][563]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (52)
+[2017.12.05-04.06.35:362][563]LogModuleManager: Shutting down and abandoning module AppleARKit (50)
+[2017.12.05-04.06.35:362][563]LogModuleManager: Shutting down and abandoning module AugmentedReality (49)
+[2017.12.05-04.06.35:362][563]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (46)
+[2017.12.05-04.06.35:362][563]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (42)
+[2017.12.05-04.06.35:362][563]LogModuleManager: Shutting down and abandoning module XMPP (41)
+[2017.12.05-04.06.35:362][563]LogModuleManager: Shutting down and abandoning module HTTP (39)
+[2017.12.05-04.06.35:362][563]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.12.05-04.06.35:362][563]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BAC305220-4358-5A10-3371-A9B5582757A9%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.1-3754814%2B%2B%2BUE4%2BRelease-4.18&UserID=3b594833464ea2447db9ab8f54bfbe9b%7C231ec0329cfc4ae29322f5907af6e17d%7C187fd38b-10f4-4a5b-a426-bcf3c7b52353&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.12.05-04.06.35:377][563]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.12.05-04.06.35:377][563]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.12.05-04.06.35:377][563]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.12.05-04.06.35:377][563]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.12.05-04.06.35:377][563]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.12.05-04.06.35:377][563]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.12.05-04.06.35:378][563]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.12.05-04.06.35:382][563]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.12.05-04.06.35:382][563]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.12.05-04.06.35:382][563]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.12.05-04.06.35:382][563]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.12.05-04.06.35:382][563]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.12.05-04.06.35:382][563]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.12.05-04.06.35:382][563]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.12.05-04.06.35:382][563]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.12.05-04.06.35:382][563]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.12.05-04.06.35:382][563]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.12.05-04.06.35:382][563]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.12.05-04.06.35:386][563]LogExit: Exiting.
+[2017.12.05-04.06.35:396][563]Log file closed, 12/05/17 17:06:35

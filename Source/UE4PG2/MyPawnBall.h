@@ -29,4 +29,18 @@ public:
 	UPROPERTY(EditAnywhere)
 		USceneComponent* OurVisibleComponent;
 	
+	// Input functions
+	void Move_XAxis(float AxisValue);
+	void Move_YAxis(float AxisValue);
+	void StartJumping();
+	void StopJumping();
+	void StartBoosting();
+	void StopBoosting();
+
+	// Input variables
+	FVector CurrentVelocity;
+	bool bJumping;
+	bool bBoosting;
+	float JumpRate = 2.0f;
+	float BoostAmt = 4.0f;
 };
